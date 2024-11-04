@@ -685,13 +685,11 @@ AddOutputFilter chunkFilter
 			<Item Name="CIFOutOfBand.lvclass" Type="LVClass" URL="../../../../CIF-LVCore/src/CIFUtilities/CIFOutOfBand/CIFOutOfBand.lvclass"/>
 			<Item Name="Get Control From Type Descriptor.vi" Type="VI" URL="../../../../CIF-LVCore/src/CIFUtilities/Scripting/Update Enum/Get Control From Type Descriptor.vi"/>
 			<Item Name="InstrumentStudio Plugin SDK.lvlib" Type="Library" URL="../../../../CIF-LVCore/src/Instrument Studio/PluginSDK/InstrumentStudio Plugin SDK.lvlib"/>
-			<Item Name="Template_client.lvlib" Type="Library" URL="../../Grpc/Template_client/Template_client.lvlib"/>
 			<Item Name="Template_server.lvlib" Type="Library" URL="../../Grpc/Template_server/Template_server.lvlib"/>
 			<Item Name="TemplateCommon.lvlib" Type="Library" URL="../../Common/TemplateCommon.lvlib"/>
 			<Item Name="TemplateOOB_Rx.lvclass" Type="LVClass" URL="../../OOB/OOB_Rx/TemplateOOB_Rx.lvclass"/>
 			<Item Name="TemplateOOB_Tx.lvclass" Type="LVClass" URL="../../OOB/OOB_Tx/TemplateOOB_Tx.lvclass"/>
 			<Item Name="TemplatePlugin.lvclass" Type="LVClass" URL="../../Class/TemplatePlugin.lvclass"/>
-			<Item Name="TemplateWrapper.lvlib" Type="Library" URL="../../Grpc/Template_wrapper/TemplateWrapper.lvlib"/>
 			<Item Name="Update Enum.lvlib" Type="Library" URL="../../../../CIF-LVCore/src/CIFUtilities/Scripting/Update Enum/Update Enum.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">

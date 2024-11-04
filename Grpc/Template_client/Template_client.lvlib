@@ -9,37 +9,37 @@
 
 </Property>
 	<Item Name="RPC Messages" Type="Folder">
-		<Item Name="cif_Template_Numeric" Type="Folder">
-			<Item Name="cif_Template_Numeric.ctl" Type="VI" URL="../RPC Messages/cif_Template_Numeric.ctl"/>
-			<Item Name="FlatToRichcif_Template_Numeric.vi" Type="VI" URL="../RPC Messages/FlatToRichcif_Template_Numeric.vi"/>
-			<Item Name="RichToFlatcif_Template_Numeric.vi" Type="VI" URL="../RPC Messages/RichToFlatcif_Template_Numeric.vi"/>
+		<Item Name="cif_template_Numeric" Type="Folder">
+			<Item Name="cif_template_Numeric.ctl" Type="VI" URL="../RPC Messages/cif_template_Numeric.ctl"/>
+			<Item Name="FlatToRichcif_template_Numeric.vi" Type="VI" URL="../RPC Messages/FlatToRichcif_template_Numeric.vi"/>
+			<Item Name="RichToFlatcif_template_Numeric.vi" Type="VI" URL="../RPC Messages/RichToFlatcif_template_Numeric.vi"/>
 		</Item>
-		<Item Name="cif_Template_Result" Type="Folder">
-			<Item Name="cif_Template_Result.ctl" Type="VI" URL="../RPC Messages/cif_Template_Result.ctl"/>
-			<Item Name="FlatToRichcif_Template_Result.vi" Type="VI" URL="../RPC Messages/FlatToRichcif_Template_Result.vi"/>
-			<Item Name="RichToFlatcif_Template_Result.vi" Type="VI" URL="../RPC Messages/RichToFlatcif_Template_Result.vi"/>
+		<Item Name="cif_template_Result" Type="Folder">
+			<Item Name="cif_template_Result.ctl" Type="VI" URL="../RPC Messages/cif_template_Result.ctl"/>
+			<Item Name="FlatToRichcif_template_Result.vi" Type="VI" URL="../RPC Messages/FlatToRichcif_template_Result.vi"/>
+			<Item Name="RichToFlatcif_template_Result.vi" Type="VI" URL="../RPC Messages/RichToFlatcif_template_Result.vi"/>
 		</Item>
-		<Item Name="cif_Template_Status" Type="Folder">
-			<Item Name="cif_Template_Status.ctl" Type="VI" URL="../RPC Messages/cif_Template_Status.ctl"/>
-			<Item Name="FlatToRichcif_Template_Status.vi" Type="VI" URL="../RPC Messages/FlatToRichcif_Template_Status.vi"/>
-			<Item Name="RichToFlatcif_Template_Status.vi" Type="VI" URL="../RPC Messages/RichToFlatcif_Template_Status.vi"/>
+		<Item Name="cif_template_Status" Type="Folder">
+			<Item Name="cif_template_Status.ctl" Type="VI" URL="../RPC Messages/cif_template_Status.ctl"/>
+			<Item Name="FlatToRichcif_template_Status.vi" Type="VI" URL="../RPC Messages/FlatToRichcif_template_Status.vi"/>
+			<Item Name="RichToFlatcif_template_Status.vi" Type="VI" URL="../RPC Messages/RichToFlatcif_template_Status.vi"/>
 		</Item>
-		<Item Name="cif_Template_Empty" Type="Folder">
-			<Item Name="cif_Template_Empty.ctl" Type="VI" URL="../RPC Messages/cif_Template_Empty.ctl"/>
-			<Item Name="FlatToRichcif_Template_Empty.vi" Type="VI" URL="../RPC Messages/FlatToRichcif_Template_Empty.vi"/>
-			<Item Name="RichToFlatcif_Template_Empty.vi" Type="VI" URL="../RPC Messages/RichToFlatcif_Template_Empty.vi"/>
+		<Item Name="cif_template_Empty" Type="Folder">
+			<Item Name="cif_template_Empty.ctl" Type="VI" URL="../RPC Messages/cif_template_Empty.ctl"/>
+			<Item Name="FlatToRichcif_template_Empty.vi" Type="VI" URL="../RPC Messages/FlatToRichcif_template_Empty.vi"/>
+			<Item Name="RichToFlatcif_template_Empty.vi" Type="VI" URL="../RPC Messages/RichToFlatcif_template_Empty.vi"/>
 		</Item>
-		<Item Name="cif_Template_Numeric_Flat" Type="Folder">
-			<Item Name="cif_Template_Numeric_Flat.ctl" Type="VI" URL="../RPC Messages/cif_Template_Numeric_Flat.ctl"/>
+		<Item Name="cif_template_Numeric_Flat" Type="Folder">
+			<Item Name="cif_template_Numeric_Flat.ctl" Type="VI" URL="../RPC Messages/cif_template_Numeric_Flat.ctl"/>
 		</Item>
-		<Item Name="cif_Template_Result_Flat" Type="Folder">
-			<Item Name="cif_Template_Result_Flat.ctl" Type="VI" URL="../RPC Messages/cif_Template_Result_Flat.ctl"/>
+		<Item Name="cif_template_Result_Flat" Type="Folder">
+			<Item Name="cif_template_Result_Flat.ctl" Type="VI" URL="../RPC Messages/cif_template_Result_Flat.ctl"/>
 		</Item>
-		<Item Name="cif_Template_Status_Flat" Type="Folder">
-			<Item Name="cif_Template_Status_Flat.ctl" Type="VI" URL="../RPC Messages/cif_Template_Status_Flat.ctl"/>
+		<Item Name="cif_template_Status_Flat" Type="Folder">
+			<Item Name="cif_template_Status_Flat.ctl" Type="VI" URL="../RPC Messages/cif_template_Status_Flat.ctl"/>
 		</Item>
-		<Item Name="cif_Template_Empty_Flat" Type="Folder">
-			<Item Name="cif_Template_Empty_Flat.ctl" Type="VI" URL="../RPC Messages/cif_Template_Empty_Flat.ctl"/>
+		<Item Name="cif_template_Empty_Flat" Type="Folder">
+			<Item Name="cif_template_Empty_Flat.ctl" Type="VI" URL="../RPC Messages/cif_template_Empty_Flat.ctl"/>
 		</Item>
 		<Item Name="Register gRPC Messages.vi" Type="VI" URL="../RPC Messages/Register gRPC Messages.vi"/>
 	</Item>
