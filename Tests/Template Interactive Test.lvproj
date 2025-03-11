@@ -151,6 +151,9 @@ AddOutputFilter chunkFilter
 				<Item Name="Less.vim" Type="VI" URL="/&lt;vilib&gt;/Comparison/Less.vim"/>
 				<Item Name="Sort 1D Array Core.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Helpers/Sort 1D Array Core.vim"/>
 				<Item Name="Sort 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Sort 1D Array.vim"/>
+				<Item Name="Time_CIF_U.lvlib" Type="Library" URL="/&lt;vilib&gt;/CIF Foundation/CIF Utilities/Time/Time_CIF_U.lvlib"/>
+				<Item Name="Stats_CIF_U.lvlib" Type="Library" URL="/&lt;vilib&gt;/CIF Foundation/CIF Utilities/Statistics/Stats_CIF_U.lvlib"/>
+				<Item Name="Errors_CIF_U.lvlib" Type="Library" URL="/&lt;vilib&gt;/CIF Foundation/CIF Utilities/Errors/Errors_CIF_U.lvlib"/>
 			</Item>
 			<Item Name="CIFChannels.lvclass" Type="LVClass" URL="../../../../CIF-LVCore/src/Channels/CIFChannels/CIFChannels.lvclass"/>
 			<Item Name="CIFCoreOOB_Rx.lvclass" Type="LVClass" URL="../../../../CIF-LVCore/src/CIFCore/OOB/OOB_Rx/CIFCoreOOB_Rx.lvclass"/>

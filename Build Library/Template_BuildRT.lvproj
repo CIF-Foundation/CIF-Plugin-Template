@@ -629,6 +629,7 @@ AddOutputFilter chunkFilter
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
+				<Item Name="Errors_CIF_U.lvlib" Type="Library" URL="/&lt;vilib&gt;/CIF Foundation/CIF Utilities/Errors/Errors_CIF_U.lvlib"/>
 				<Item Name="Get LV Class Default Value By Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value By Name.vi"/>
 				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
 				<Item Name="grpc-lvsupport-release.lvlib" Type="Library" URL="/&lt;vilib&gt;/gRPC/LabVIEW gRPC Library/grpc-lvsupport-release.lvlib"/>
@@ -650,12 +651,15 @@ AddOutputFilter chunkFilter
 				<Item Name="Sort 1D Array Core.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Helpers/Sort 1D Array Core.vim"/>
 				<Item Name="Sort 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Sort 1D Array.vim"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
+				<Item Name="Stats_CIF_U.lvlib" Type="Library" URL="/&lt;vilib&gt;/CIF Foundation/CIF Utilities/Statistics/Stats_CIF_U.lvlib"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
+				<Item Name="Time_CIF_U.lvlib" Type="Library" URL="/&lt;vilib&gt;/CIF Foundation/CIF Utilities/Time/Time_CIF_U.lvlib"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="Adjust Idle Benchmark.vi" Type="VI" URL="../../../../CIF-LVCore/src/CIFCore/Class/Benchmarking/Adjust Idle Benchmark.vi"/>
 			<Item Name="ChannelCommon.lvlib" Type="Library" URL="../../../../CIF-LVCore/src/Channels/ChannelCommon/ChannelCommon.lvlib"/>
 			<Item Name="ChannelRegistrar.lvlib" Type="Library" URL="../../../../CIF-LVCore/src/Channels/ChannelRegistrar/ChannelRegistrar.lvlib"/>
 			<Item Name="CIF Configuration File.lvlib" Type="Library" URL="../../../../CIF-LVCore/src/CIFUtilities/CIFConfigurationFile/CIF Configuration File.lvlib"/>
@@ -684,12 +688,15 @@ AddOutputFilter chunkFilter
 			<Item Name="CIFManagerClientWrapper.lvlib" Type="Library" URL="../../../../CIF-LVCore/src/CIFPluginManager/CIFPluginManager/gRPC/CIF_Manager_Client_Wrapper/CIFManagerClientWrapper.lvlib"/>
 			<Item Name="CIFOutOfBand.lvclass" Type="LVClass" URL="../../../../CIF-LVCore/src/CIFUtilities/CIFOutOfBand/CIFOutOfBand.lvclass"/>
 			<Item Name="Get Control From Type Descriptor.vi" Type="VI" URL="../../../../CIF-LVCore/src/CIFUtilities/Scripting/Update Enum/Get Control From Type Descriptor.vi"/>
+			<Item Name="Get Time.vi" Type="VI" URL="../../../../CIF-LVCore/src/CIFCore/Class/Accessors/Get Time.vi"/>
 			<Item Name="InstrumentStudio Plugin SDK.lvlib" Type="Library" URL="../../../../CIF-LVCore/src/Instrument Studio/PluginSDK/InstrumentStudio Plugin SDK.lvlib"/>
 			<Item Name="Template_server.lvlib" Type="Library" URL="../../Grpc/Template_server/Template_server.lvlib"/>
 			<Item Name="TemplateCommon.lvlib" Type="Library" URL="../../Common/TemplateCommon.lvlib"/>
 			<Item Name="TemplateOOB_Rx.lvclass" Type="LVClass" URL="../../OOB/OOB_Rx/TemplateOOB_Rx.lvclass"/>
 			<Item Name="TemplateOOB_Tx.lvclass" Type="LVClass" URL="../../OOB/OOB_Tx/TemplateOOB_Tx.lvclass"/>
 			<Item Name="TemplatePlugin.lvclass" Type="LVClass" URL="../../Class/TemplatePlugin.lvclass"/>
+			<Item Name="trash_Adjust Idle Benchmark.vi" Type="VI" URL="../../../../CIF-LVCore/src/CIFCore/Class/Benchmarking/trash_Adjust Idle Benchmark.vi"/>
+			<Item Name="trash_Get Time.vi" Type="VI" URL="../../../../CIF-LVCore/src/CIFCore/Class/Accessors/trash_Get Time.vi"/>
 			<Item Name="Update Enum.lvlib" Type="Library" URL="../../../../CIF-LVCore/src/CIFUtilities/Scripting/Update Enum/Update Enum.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
