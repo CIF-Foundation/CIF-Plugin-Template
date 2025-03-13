@@ -440,7 +440,6 @@
 			<Item Name="CIF Configuration File.lvlib" Type="Library" URL="../../../../CIF-LVCore/src/CIFUtilities/CIFConfigurationFile/CIF Configuration File.lvlib"/>
 			<Item Name="CIF_Manager_client.lvlib" Type="Library" URL="../../../../CIF-LVCore/src/CIFPluginManager/CIFPluginManager/gRPC/CIF_Manager_client/CIF_Manager_client.lvlib"/>
 			<Item Name="CIF_UI.lvclass" Type="LVClass" URL="../../../../CIF-LVCore/src/CIFUI/CIF_UI.lvclass"/>
-			<Item Name="CIFClocks.lvlib" Type="Library" URL="../../../../CIF-LVCore/src/CIFUtilities/CIFClocks/CIFClocks.lvlib"/>
 			<Item Name="CIFCoreChannel_client.lvlib" Type="Library" URL="../../../../CIF-LVCore/src/CIFCore/Grpc/CIFCoreChannel_client/CIFCoreChannel_client.lvlib"/>
 			<Item Name="CIFCoreCommon.lvlib" Type="Library" URL="../../../../CIF-LVCore/src/CIFCore/Common/CIFCoreCommon.lvlib"/>
 			<Item Name="CIFCorePlugin_client.lvlib" Type="Library" URL="../../../../CIF-LVCore/src/CIFCore/Grpc/CIFCorePlugin_client/CIFCorePlugin_client.lvlib"/>
@@ -580,6 +579,7 @@
 			<Item Name="provcom_CheckChannelControlConPane.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_CheckChannelControlConPane.vi"/>
 			<Item Name="Template_client.lvlib" Type="Library" URL="../../Grpc/Template_client/Template_client.lvlib"/>
 			<Item Name="TemplateWrapper.lvlib" Type="Library" URL="../../Grpc/Template_wrapper/TemplateWrapper.lvlib"/>
+			<Item Name="Append Error Location.vi" Type="VI" URL="../../../../CIF-LVCore/src/CIFCore/Common/Utilities/Append Error Location.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="UI Plugin" Type="Packed Library">

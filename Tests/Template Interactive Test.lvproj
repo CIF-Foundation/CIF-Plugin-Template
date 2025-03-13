@@ -165,7 +165,6 @@ AddOutputFilter chunkFilter
 			<Item Name="CIFCoreCommon.lvlib" Type="Library" URL="../../../../CIF-LVCore/src/CIFCore/Common/CIFCoreCommon.lvlib"/>
 			<Item Name="ChannelRegistrar.lvlib" Type="Library" URL="../../../../CIF-LVCore/src/Channels/ChannelRegistrar/ChannelRegistrar.lvlib"/>
 			<Item Name="ChannelCommon.lvlib" Type="Library" URL="../../../../CIF-LVCore/src/Channels/ChannelCommon/ChannelCommon.lvlib"/>
-			<Item Name="CIFClocks.lvlib" Type="Library" URL="../../../../CIF-LVCore/src/CIFUtilities/CIFClocks/CIFClocks.lvlib"/>
 			<Item Name="CIF_NIChn.lvclass" Type="LVClass" URL="../../../../CIF-LVCore/src/Channels/CIF_NIChn/NIChn/CIF_NIChn.lvclass"/>
 			<Item Name="CIF_NIChn_I64.lvclass" Type="LVClass" URL="../../../../CIF-LVCore/src/Channels/CIF_NIChn/I64/CIF_NIChn_I64.lvclass"/>
 			<Item Name="CIF_NIChn_FifoCAN.lvclass" Type="LVClass" URL="../../../../CIF-LVCore/src/Channels/CIF_NIChn/FIFO_CAN/CIF_NIChn_FifoCAN.lvclass"/>
