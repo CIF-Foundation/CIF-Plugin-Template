@@ -579,6 +579,7 @@
 			<Item Name="provcom_CheckChannelControlConPane.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_CheckChannelControlConPane.vi"/>
 			<Item Name="Template_client.lvlib" Type="Library" URL="../../Grpc/Template_client/Template_client.lvlib"/>
 			<Item Name="TemplateWrapper.lvlib" Type="Library" URL="../../Grpc/Template_wrapper/TemplateWrapper.lvlib"/>
+			<Item Name="LabVIEW Time to UTC Time.vi" Type="VI" URL="../../../../CIF-LVCore/src/CIFUtilities/CIFClocks/Time Conversion/LabVIEW Time to UTC Time.vi"/>
 			<Item Name="Append Error Location.vi" Type="VI" URL="../../../../CIF-LVCore/src/CIFCore/Common/Utilities/Append Error Location.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
@@ -593,7 +594,7 @@
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/CIF Build Actions.lvlib/Core/UI Post-Build Action.vi</Property>
 				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/CIF Build Actions.lvlib/Core/UI Pre-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{05547330-7608-4C70-A459-D72560977C4B}</Property>
-				<Property Name="Bld_version.build" Type="Int">21</Property>
+				<Property Name="Bld_version.build" Type="Int">23</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">CIF_Template_UI.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/D/dev/builds/TemplatePlugin/UI/NI_AB_PROJECTNAME.lvlibp</Property>
@@ -605,7 +606,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{D23BD0FC-6E80-4DDC-944B-F7871139A68F}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{10C53C88-1D27-471C-A36E-8C94595A2874}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/CIF Template UI.lvlib</Property>
