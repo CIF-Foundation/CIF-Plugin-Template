@@ -151,6 +151,9 @@ AddOutputFilter chunkFilter
 				<Item Name="Less.vim" Type="VI" URL="/&lt;vilib&gt;/Comparison/Less.vim"/>
 				<Item Name="Sort 1D Array Core.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Helpers/Sort 1D Array Core.vim"/>
 				<Item Name="Sort 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Sort 1D Array.vim"/>
+				<Item Name="Time_CIF_U.lvlib" Type="Library" URL="/&lt;vilib&gt;/CIF Foundation/CIF Utilities/Time/Time_CIF_U.lvlib"/>
+				<Item Name="Stats_CIF_U.lvlib" Type="Library" URL="/&lt;vilib&gt;/CIF Foundation/CIF Utilities/Statistics/Stats_CIF_U.lvlib"/>
+				<Item Name="Errors_CIF_U.lvlib" Type="Library" URL="/&lt;vilib&gt;/CIF Foundation/CIF Utilities/Errors/Errors_CIF_U.lvlib"/>
 			</Item>
 			<Item Name="CIFChannels.lvclass" Type="LVClass" URL="../../../../CIF-LVCore/src/Channels/CIFChannels/CIFChannels.lvclass"/>
 			<Item Name="CIFCoreOOB_Rx.lvclass" Type="LVClass" URL="../../../../CIF-LVCore/src/CIFCore/OOB/OOB_Rx/CIFCoreOOB_Rx.lvclass"/>
@@ -162,7 +165,6 @@ AddOutputFilter chunkFilter
 			<Item Name="CIFCoreCommon.lvlib" Type="Library" URL="../../../../CIF-LVCore/src/CIFCore/Common/CIFCoreCommon.lvlib"/>
 			<Item Name="ChannelRegistrar.lvlib" Type="Library" URL="../../../../CIF-LVCore/src/Channels/ChannelRegistrar/ChannelRegistrar.lvlib"/>
 			<Item Name="ChannelCommon.lvlib" Type="Library" URL="../../../../CIF-LVCore/src/Channels/ChannelCommon/ChannelCommon.lvlib"/>
-			<Item Name="CIFClocks.lvlib" Type="Library" URL="../../../../CIF-LVCore/src/CIFUtilities/CIFClocks/CIFClocks.lvlib"/>
 			<Item Name="CIF_NIChn.lvclass" Type="LVClass" URL="../../../../CIF-LVCore/src/Channels/CIF_NIChn/NIChn/CIF_NIChn.lvclass"/>
 			<Item Name="CIF_NIChn_I64.lvclass" Type="LVClass" URL="../../../../CIF-LVCore/src/Channels/CIF_NIChn/I64/CIF_NIChn_I64.lvclass"/>
 			<Item Name="CIF_NIChn_FifoCAN.lvclass" Type="LVClass" URL="../../../../CIF-LVCore/src/Channels/CIF_NIChn/FIFO_CAN/CIF_NIChn_FifoCAN.lvclass"/>

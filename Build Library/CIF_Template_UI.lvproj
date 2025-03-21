@@ -430,6 +430,8 @@
 				<Item Name="AB_API Set Inclusion.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_API/common/AB_API Set Inclusion.vi"/>
 				<Item Name="AB_API Link And Expand.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_API/common/AB_API Link And Expand.vi"/>
 				<Item Name="NI_AB_API_Targetfile.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/AB_API/Targetfile/NI_AB_API_Targetfile.lvclass"/>
+				<Item Name="Time_CIF_U.lvlib" Type="Library" URL="/&lt;vilib&gt;/CIF Foundation/CIF Utilities/Time/Time_CIF_U.lvlib"/>
+				<Item Name="Errors_CIF_U.lvlib" Type="Library" URL="/&lt;vilib&gt;/CIF Foundation/CIF Utilities/Errors/Errors_CIF_U.lvlib"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="openg_error.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/openg_error.lvlib"/>
@@ -438,7 +440,6 @@
 			<Item Name="CIF Configuration File.lvlib" Type="Library" URL="../../../../CIF-LVCore/src/CIFUtilities/CIFConfigurationFile/CIF Configuration File.lvlib"/>
 			<Item Name="CIF_Manager_client.lvlib" Type="Library" URL="../../../../CIF-LVCore/src/CIFPluginManager/CIFPluginManager/gRPC/CIF_Manager_client/CIF_Manager_client.lvlib"/>
 			<Item Name="CIF_UI.lvclass" Type="LVClass" URL="../../../../CIF-LVCore/src/CIFUI/CIF_UI.lvclass"/>
-			<Item Name="CIFClocks.lvlib" Type="Library" URL="../../../../CIF-LVCore/src/CIFUtilities/CIFClocks/CIFClocks.lvlib"/>
 			<Item Name="CIFCoreChannel_client.lvlib" Type="Library" URL="../../../../CIF-LVCore/src/CIFCore/Grpc/CIFCoreChannel_client/CIFCoreChannel_client.lvlib"/>
 			<Item Name="CIFCoreCommon.lvlib" Type="Library" URL="../../../../CIF-LVCore/src/CIFCore/Common/CIFCoreCommon.lvlib"/>
 			<Item Name="CIFCorePlugin_client.lvlib" Type="Library" URL="../../../../CIF-LVCore/src/CIFCore/Grpc/CIFCorePlugin_client/CIFCorePlugin_client.lvlib"/>
@@ -578,6 +579,8 @@
 			<Item Name="provcom_CheckChannelControlConPane.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_CheckChannelControlConPane.vi"/>
 			<Item Name="Template_client.lvlib" Type="Library" URL="../../Grpc/Template_client/Template_client.lvlib"/>
 			<Item Name="TemplateWrapper.lvlib" Type="Library" URL="../../Grpc/Template_wrapper/TemplateWrapper.lvlib"/>
+			<Item Name="LabVIEW Time to UTC Time.vi" Type="VI" URL="../../../../CIF-LVCore/src/CIFUtilities/CIFClocks/Time Conversion/LabVIEW Time to UTC Time.vi"/>
+			<Item Name="Append Error Location.vi" Type="VI" URL="../../../../CIF-LVCore/src/CIFCore/Common/Utilities/Append Error Location.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="UI Plugin" Type="Packed Library">
@@ -591,7 +594,7 @@
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/CIF Build Actions.lvlib/Core/UI Post-Build Action.vi</Property>
 				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/CIF Build Actions.lvlib/Core/UI Pre-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{05547330-7608-4C70-A459-D72560977C4B}</Property>
-				<Property Name="Bld_version.build" Type="Int">21</Property>
+				<Property Name="Bld_version.build" Type="Int">23</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">CIF_Template_UI.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/D/dev/builds/TemplatePlugin/UI/NI_AB_PROJECTNAME.lvlibp</Property>
@@ -603,7 +606,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{D23BD0FC-6E80-4DDC-944B-F7871139A68F}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{10C53C88-1D27-471C-A36E-8C94595A2874}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/CIF Template UI.lvlib</Property>
