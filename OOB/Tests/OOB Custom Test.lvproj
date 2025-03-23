@@ -14,7 +14,9 @@
 		<Item Name="RX OOB Test Cases.vi" Type="VI" URL="../RX OOB Test Cases.vi"/>
 		<Item Name="TX OOB Test Cases.vi" Type="VI" URL="../TX OOB Test Cases.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
-			<Item Name="CIFOutOfBand.lvclass" Type="LVClass" URL="../../../../../CIF-LVCore/src/CIFUtilities/CIFOutOfBand/CIFOutOfBand.lvclass"/>
+			<Item Name="vi.lib" Type="Folder">
+				<Item Name="CIFOutOfBand.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/CIF Foundation/CIF Out of Band Commands/CIFOutOfBand.lvclass"/>
+			</Item>
 			<Item Name="TemplateOOB_Rx.lvclass" Type="LVClass" URL="../../OOB_Rx/TemplateOOB_Rx.lvclass"/>
 			<Item Name="TemplateOOB_Tx.lvclass" Type="LVClass" URL="../../OOB_Tx/TemplateOOB_Tx.lvclass"/>
 		</Item>
