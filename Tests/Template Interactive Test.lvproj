@@ -142,7 +142,6 @@ AddOutputFilter chunkFilter
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="Assert Error Cluster Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Error Cluster Type.vim"/>
 				<Item Name="LVMapReplaceAction.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVMapReplaceAction.ctl"/>
-				<Item Name="CIFChannelCore.lvlib" Type="Library" URL="/&lt;vilib&gt;/CIFChannels/CIFChannelCore.lvlib"/>
 				<Item Name="Assert Signed Integer Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Signed Integer Type.vim"/>
 				<Item Name="Assert Integer Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Integer Type.vim"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
@@ -155,24 +154,28 @@ AddOutputFilter chunkFilter
 				<Item Name="Stats_CIF_U.lvlib" Type="Library" URL="/&lt;vilib&gt;/CIF Foundation/CIF Utilities/Statistics/Stats_CIF_U.lvlib"/>
 				<Item Name="Errors_CIF_U.lvlib" Type="Library" URL="/&lt;vilib&gt;/CIF Foundation/CIF Utilities/Errors/Errors_CIF_U.lvlib"/>
 				<Item Name="CIFOutOfBand.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/CIF Foundation/CIF Out of Band Commands/CIFOutOfBand.lvclass"/>
+				<Item Name="ChannelCommon.lvlib" Type="Library" URL="/&lt;vilib&gt;/CIF Foundation/CIF Channels Core/ChannelCommon/ChannelCommon.lvlib"/>
+				<Item Name="DataTypes_CIF_U.lvlib" Type="Library" URL="/&lt;vilib&gt;/CIF Foundation/CIF Utilities/DataTypes/DataTypes_CIF_U.lvlib"/>
+				<Item Name="CIF_NIChn_Double.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/CIF Foundation/CIF Channels Core/CIF_NIChn/Double/CIF_NIChn_Double.lvclass"/>
+				<Item Name="CIF_NIChn.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/CIF Foundation/CIF Channels Core/CIF_NIChn/NIChn/CIF_NIChn.lvclass"/>
+				<Item Name="NIChannels.lvlib" Type="Library" URL="/&lt;vilib&gt;/CIF Foundation/NI Channels/NIChannels.lvlib"/>
+				<Item Name="CIF_NIChn_U64.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/CIF Foundation/CIF Channels Core/CIF_NIChn/U64/CIF_NIChn_U64.lvclass"/>
+				<Item Name="CIF_NIChn_I64.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/CIF Foundation/CIF Channels Core/CIF_NIChn/I64/CIF_NIChn_I64.lvclass"/>
+				<Item Name="CIF_NIChn_Raw.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/CIF Foundation/CIF Channels Core/CIF_NIChn/FIFO_RAW/CIF_NIChn_Raw.lvclass"/>
+				<Item Name="CIF_NIChn_Fifo_U8.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/CIF Foundation/CIF Channels Core/CIF_NIChn/FIFO_U8/CIF_NIChn_Fifo_U8.lvclass"/>
+				<Item Name="CIF_Fifo_U8_Multi.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/CIF Foundation/CIF Channels Core/CIF_NIChn/FIFO_U8_Multi/CIF_Fifo_U8_Multi.lvclass"/>
+				<Item Name="CIF_NIChn_CAN.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/CIF Foundation/CIF Channels Core/CIF_NIChn/FIFO_CAN/CIF_NIChn_CAN.lvclass"/>
+				<Item Name="CIF_NIChn_L2Enet.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/CIF Foundation/CIF Channels Core/CIF_NIChn/FIFO_L2Enet/CIF_NIChn_L2Enet.lvclass"/>
+				<Item Name="CIF_NIChn_DAQ.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/CIF Foundation/CIF Channels Core/CIF_NIChn/FIFO_DAQ/CIF_NIChn_DAQ.lvclass"/>
+				<Item Name="CIF_NIChn_DAQ_Base.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/CIF Foundation/CIF Channels Core/CIF_NIChn/FIFO_DAQ/DAQ Base/CIF_NIChn_DAQ_Base.lvclass"/>
+				<Item Name="CIFChannels.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/CIF Foundation/CIF Channels Core/CIFChannels/CIFChannels.lvclass"/>
 			</Item>
-			<Item Name="CIFChannels.lvclass" Type="LVClass" URL="../../../../CIF-LVCore/src/Channels/CIFChannels/CIFChannels.lvclass"/>
 			<Item Name="CIFCoreOOB_Rx.lvclass" Type="LVClass" URL="../../../../CIF-LVCore/src/CIFCore/OOB/OOB_Rx/CIFCoreOOB_Rx.lvclass"/>
 			<Item Name="CIFCoreOOB_Tx.lvclass" Type="LVClass" URL="../../../../CIF-LVCore/src/CIFCore/OOB/OOB_Tx/CIFCoreOOB_Tx.lvclass"/>
 			<Item Name="CIFCorePlugin.lvclass" Type="LVClass" URL="../../../../CIF-LVCore/src/CIFCore/Class/CIFCorePlugin.lvclass"/>
-			<Item Name="CIF_NIChn_Double.lvclass" Type="LVClass" URL="../../../../CIF-LVCore/src/Channels/CIF_NIChn/Double/CIF_NIChn_Double.lvclass"/>
-			<Item Name="CIF_NIChn_U64.lvclass" Type="LVClass" URL="../../../../CIF-LVCore/src/Channels/CIF_NIChn/U64/CIF_NIChn_U64.lvclass"/>
 			<Item Name="CIFCoreCommon.lvlib" Type="Library" URL="../../../../CIF-LVCore/src/CIFCore/Common/CIFCoreCommon.lvlib"/>
 			<Item Name="ChannelRegistrar.lvlib" Type="Library" URL="../../../../CIF-LVCore/src/Channels/ChannelRegistrar/ChannelRegistrar.lvlib"/>
-			<Item Name="ChannelCommon.lvlib" Type="Library" URL="../../../../CIF-LVCore/src/Channels/ChannelCommon/ChannelCommon.lvlib"/>
-			<Item Name="CIF_NIChn.lvclass" Type="LVClass" URL="../../../../CIF-LVCore/src/Channels/CIF_NIChn/NIChn/CIF_NIChn.lvclass"/>
-			<Item Name="CIF_NIChn_I64.lvclass" Type="LVClass" URL="../../../../CIF-LVCore/src/Channels/CIF_NIChn/I64/CIF_NIChn_I64.lvclass"/>
-			<Item Name="CIF_NIChn_FifoCAN.lvclass" Type="LVClass" URL="../../../../CIF-LVCore/src/Channels/CIF_NIChn/FIFO_CAN/CIF_NIChn_FifoCAN.lvclass"/>
-			<Item Name="CIFfifo.lvclass" Type="LVClass" URL="../../../../CIF-LVCore/src/Channels/ChannelCommon/CIFFIFO/CIFfifo.lvclass"/>
-			<Item Name="CIF_NIChn_Fifo_DAQ.lvclass" Type="LVClass" URL="../../../../CIF-LVCore/src/Channels/CIF_NIChn/FIFO_DAQ/CIF_NIChn_Fifo_DAQ.lvclass"/>
 			<Item Name="CIFChannelMng.lvclass" Type="LVClass" URL="../../../../CIF-LVCore/src/Channels/CIFChannelMng/CIFChannelMng.lvclass"/>
-			<Item Name="Update Enum.lvlib" Type="Library" URL="../../../../CIF-LVCore/src/CIFUtilities/Scripting/Update Enum/Update Enum.lvlib"/>
-			<Item Name="Get Control From Type Descriptor.vi" Type="VI" URL="../../../../CIF-LVCore/src/CIFUtilities/Scripting/Update Enum/Get Control From Type Descriptor.vi"/>
 			<Item Name="CIFLogs.lvlib" Type="Library" URL="../../../../CIF-LVCore/src/CIFUtilities/CIFLogs/CIFLogs.lvlib"/>
 			<Item Name="CIF Configuration File.lvlib" Type="Library" URL="../../../../CIF-LVCore/src/CIFUtilities/CIFConfigurationFile/CIF Configuration File.lvlib"/>
 			<Item Name="CIFCorePlugin_server.lvlib" Type="Library" URL="../../../../CIF-LVCore/src/CIFCore/Grpc/CIFCorePlugin_server/CIFCorePlugin_server.lvlib"/>
@@ -184,6 +187,8 @@ AddOutputFilter chunkFilter
 			<Item Name="CIF_UI.lvclass" Type="LVClass" URL="../../../../CIF-LVCore/src/CIFUI/CIF_UI.lvclass"/>
 			<Item Name="CIFCoreChannel_client.lvlib" Type="Library" URL="../../../../CIF-LVCore/src/CIFCore/Grpc/CIFCoreChannel_client/CIFCoreChannel_client.lvlib"/>
 			<Item Name="InstrumentStudio Plugin SDK.lvlib" Type="Library" URL="../../../../CIF-LVCore/src/Instrument Studio/PluginSDK/InstrumentStudio Plugin SDK.lvlib"/>
+			<Item Name="ChnMngOOB_Tx.lvclass" Type="LVClass" URL="../../../../CIF-LVCore/src/Channels/CIFChannelMng/OOB/OOB_Tx/ChnMngOOB_Tx.lvclass"/>
+			<Item Name="ChanMngOOB_Rx.lvclass" Type="LVClass" URL="../../../../CIF-LVCore/src/Channels/CIFChannelMng/OOB/OOB_Rx/ChanMngOOB_Rx.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
