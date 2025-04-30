@@ -188,7 +188,6 @@ AddOutputFilter chunkFilter
 			<Item Name="CIFCoreChannel_client.lvlib" Type="Library" URL="../../../../CIF-LVCore/src/CIFCore/Grpc/CIFCoreChannel_client/CIFCoreChannel_client.lvlib"/>
 			<Item Name="InstrumentStudio Plugin SDK.lvlib" Type="Library" URL="../../../../CIF-LVCore/src/Instrument Studio/PluginSDK/InstrumentStudio Plugin SDK.lvlib"/>
 			<Item Name="ChnMngOOB_Tx.lvclass" Type="LVClass" URL="../../../../CIF-LVCore/src/Channels/CIFChannelMng/OOB/OOB_Tx/ChnMngOOB_Tx.lvclass"/>
-			<Item Name="ChanMngOOB_Rx.lvclass" Type="LVClass" URL="../../../../CIF-LVCore/src/Channels/CIFChannelMng/OOB/OOB_Rx/ChanMngOOB_Rx.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
