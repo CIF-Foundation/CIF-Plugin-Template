@@ -14,7 +14,8 @@ Version 0.3.0 - Support components from CIF installers.  New Status update with 
 
 </Property>
 	<Item Name="Core" Type="Folder">
-		<Item Name="Energize.vi" Type="VI" URL="../Core/Energize.vi"/>
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Launch.vi" Type="VI" URL="../Core/Launch.vi"/>
+		<Item Name="Energize.vi" Type="VI" URL="../Core/Energize.vi"/>
 	</Item>
 </Library>

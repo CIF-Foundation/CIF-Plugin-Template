@@ -93,10 +93,6 @@ AddOutputFilter chunkFilter
 		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
-		<Item Name="Tests" Type="Folder">
-			<Item Name="CIFCore gRPC Test Client.vi" Type="VI" URL="../../../../CIF-LVCore/src/CIFCore/Tests/CIFCore gRPC Test Client.vi"/>
-			<Item Name="Test R_W.vi" Type="VI" URL="../Test R_W.vi"/>
-		</Item>
 		<Item Name="gRPC Dependencies" Type="Folder">
 			<Item Name="TemplateOOB_Tx.lvclass" Type="LVClass" URL="../../OOB/OOB_Tx/TemplateOOB_Tx.lvclass"/>
 			<Item Name="TemplateOOB_Rx.lvclass" Type="LVClass" URL="../../OOB/OOB_Rx/TemplateOOB_Rx.lvclass"/>
@@ -104,8 +100,12 @@ AddOutputFilter chunkFilter
 			<Item Name="TemplateWrapper.lvlib" Type="Library" URL="../../Grpc/Template_wrapper/TemplateWrapper.lvlib"/>
 			<Item Name="Template_client.lvlib" Type="Library" URL="../../Grpc/Template_client/Template_client.lvlib"/>
 		</Item>
-		<Item Name="TemplatePlugin.lvclass" Type="LVClass" URL="../../Class/TemplatePlugin.lvclass"/>
+		<Item Name="Tests" Type="Folder">
+			<Item Name="CIFCore gRPC Test Client.vi" Type="VI" URL="../../../../CIF-LVCore/src/CIFCore/Tests/CIFCore gRPC Test Client.vi"/>
+			<Item Name="Test R_W.vi" Type="VI" URL="../Test R_W.vi"/>
+		</Item>
 		<Item Name="TemplatePlugin.lvlib" Type="Library" URL="../../Callable Library/TemplatePlugin.lvlib"/>
+		<Item Name="TemplatePlugin.lvclass" Type="LVClass" URL="../../Class/TemplatePlugin.lvclass"/>
 		<Item Name="TemplateCommon.lvlib" Type="Library" URL="../../Common/TemplateCommon.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
