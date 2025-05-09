@@ -8,10 +8,12 @@
 
 </Property>
 	<Item Name="SubVIs" Type="Folder">
+		<Item Name="Add Error.vi" Type="VI" URL="../SubVIs/Add Error.vi"/>
 		<Item Name="Channels.vi" Type="VI" URL="../SubVIs/Channels.vi"/>
 	</Item>
 	<Item Name="Typedef" Type="Folder">
 		<Item Name="Channels.ctl" Type="VI" URL="../Typedef/Channels.ctl"/>
 		<Item Name="Configuration.ctl" Type="VI" URL="../Typedef/Configuration.ctl"/>
+		<Item Name="Errors.ctl" Type="VI" URL="../Typedef/Errors.ctl"/>
 	</Item>
 </Library>
