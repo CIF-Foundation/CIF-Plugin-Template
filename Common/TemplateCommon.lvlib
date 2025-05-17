@@ -12,6 +12,19 @@
 		<Item Name="Channels.vi" Type="VI" URL="../SubVIs/Channels.vi"/>
 	</Item>
 	<Item Name="Typedef" Type="Folder">
+		<Property Name="NI.SortType" Type="Int">3</Property>
+		<Item Name="OOB Comm" Type="Folder">
+			<Item Name="To gRPC Cyclic Data.ctl" Type="VI" URL="../Typedef/OOB Comm/To gRPC Cyclic Data.ctl"/>
+			<Item Name="To Main Cyclic Data.ctl" Type="VI" URL="../Typedef/OOB Comm/To Main Cyclic Data.ctl"/>
+			<Item Name="To gRPC Command.ctl" Type="VI" URL="../Typedef/OOB Comm/To gRPC Command.ctl"/>
+			<Item Name="To gRPC Command Data.ctl" Type="VI" URL="../Typedef/OOB Comm/To gRPC Command Data.ctl"/>
+			<Item Name="To gRPC Command Payload.ctl" Type="VI" URL="../Typedef/OOB Comm/To gRPC Command Payload.ctl"/>
+			<Item Name="To gRPC DVR Data.ctl" Type="VI" URL="../Typedef/OOB Comm/To gRPC DVR Data.ctl"/>
+			<Item Name="To Main Command.ctl" Type="VI" URL="../Typedef/OOB Comm/To Main Command.ctl"/>
+			<Item Name="To Main Command Data.ctl" Type="VI" URL="../Typedef/OOB Comm/To Main Command Data.ctl"/>
+			<Item Name="To Main Command Payload.ctl" Type="VI" URL="../Typedef/OOB Comm/To Main Command Payload.ctl"/>
+			<Item Name="To Main DVR Data.ctl" Type="VI" URL="../Typedef/OOB Comm/To Main DVR Data.ctl"/>
+		</Item>
 		<Item Name="Channels.ctl" Type="VI" URL="../Typedef/Channels.ctl"/>
 		<Item Name="Configuration.ctl" Type="VI" URL="../Typedef/Configuration.ctl"/>
 		<Item Name="Errors.ctl" Type="VI" URL="../Typedef/Errors.ctl"/>
