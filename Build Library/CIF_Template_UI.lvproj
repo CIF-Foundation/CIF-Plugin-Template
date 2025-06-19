@@ -321,7 +321,6 @@
 				<Item Name="JKI JSON Serialization.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/_JKI.lib/Serialization/JSON/JKI JSON Serialization.lvlib"/>
 				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
 				<Item Name="Assert Error Cluster Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Error Cluster Type.vim"/>
-				<Item Name="CIFChannelCore.lvlib" Type="Library" URL="/&lt;vilib&gt;/CIFChannels/CIFChannelCore.lvlib"/>
 				<Item Name="Assert Signed Integer Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Signed Integer Type.vim"/>
 				<Item Name="Assert Integer Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Integer Type.vim"/>
 				<Item Name="JKI Unicode.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/_JKI.lib/Unicode/JKI Unicode.lvlib"/>
@@ -432,6 +431,32 @@
 				<Item Name="NI_AB_API_Targetfile.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/AB_API/Targetfile/NI_AB_API_Targetfile.lvclass"/>
 				<Item Name="Time_CIF_U.lvlib" Type="Library" URL="/&lt;vilib&gt;/CIF Foundation/CIF Utilities/Time/Time_CIF_U.lvlib"/>
 				<Item Name="Errors_CIF_U.lvlib" Type="Library" URL="/&lt;vilib&gt;/CIF Foundation/CIF Utilities/Errors/Errors_CIF_U.lvlib"/>
+				<Item Name="CIFChannels.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/CIF Foundation/CIF Channels Core/CIFChannels/CIFChannels.lvclass"/>
+				<Item Name="ChannelCommon.lvlib" Type="Library" URL="/&lt;vilib&gt;/CIF Foundation/CIF Channels Core/ChannelCommon/ChannelCommon.lvlib"/>
+				<Item Name="Stats_CIF_U.lvlib" Type="Library" URL="/&lt;vilib&gt;/CIF Foundation/CIF Utilities/Statistics/Stats_CIF_U.lvlib"/>
+				<Item Name="DataTypes_CIF_U.lvlib" Type="Library" URL="/&lt;vilib&gt;/CIF Foundation/CIF Utilities/DataTypes/DataTypes_CIF_U.lvlib"/>
+				<Item Name="CIF_NIChn_Double.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/CIF Foundation/CIF Channels Core/CIF_NIChn/Double/CIF_NIChn_Double.lvclass"/>
+				<Item Name="CIF_NIChn.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/CIF Foundation/CIF Channels Core/CIF_NIChn/NIChn/CIF_NIChn.lvclass"/>
+				<Item Name="NIChannels.lvlib" Type="Library" URL="/&lt;vilib&gt;/CIF Foundation/NI Channels/NIChannels.lvlib"/>
+				<Item Name="CIF_NIChn_U64.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/CIF Foundation/CIF Channels Core/CIF_NIChn/U64/CIF_NIChn_U64.lvclass"/>
+				<Item Name="CIF_NIChn_I64.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/CIF Foundation/CIF Channels Core/CIF_NIChn/I64/CIF_NIChn_I64.lvclass"/>
+				<Item Name="CIF_NIChn_Raw.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/CIF Foundation/CIF Channels Core/CIF_NIChn/FIFO_RAW/CIF_NIChn_Raw.lvclass"/>
+				<Item Name="CIF_NIChn_Fifo_U8.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/CIF Foundation/CIF Channels Core/CIF_NIChn/FIFO_U8/CIF_NIChn_Fifo_U8.lvclass"/>
+				<Item Name="CIF_Fifo_U8_Multi.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/CIF Foundation/CIF Channels Core/CIF_NIChn/FIFO_U8_Multi/CIF_Fifo_U8_Multi.lvclass"/>
+				<Item Name="CIF_NIChn_CAN.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/CIF Foundation/CIF Channels Core/CIF_NIChn/FIFO_CAN/CIF_NIChn_CAN.lvclass"/>
+				<Item Name="CIF_NIChn_L2Enet.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/CIF Foundation/CIF Channels Core/CIF_NIChn/FIFO_L2Enet/CIF_NIChn_L2Enet.lvclass"/>
+				<Item Name="CIF_NIChn_DAQ.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/CIF Foundation/CIF Channels Core/CIF_NIChn/FIFO_DAQ/CIF_NIChn_DAQ.lvclass"/>
+				<Item Name="CIF_NIChn_DAQ_Base.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/CIF Foundation/CIF Channels Core/CIF_NIChn/FIFO_DAQ/DAQ Base/CIF_NIChn_DAQ_Base.lvclass"/>
+				<Item Name="CIF_CIPC_Chn_Double.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/CIF Foundation/CIF Channels Core/CIPC_Channels/Double/CIF_CIPC_Chn_Double.lvclass"/>
+				<Item Name="CIF_CIPC_Chn.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/CIF Foundation/CIF Channels Core/CIPC_Channels/CIF_CIPC_Chan/CIF_CIPC_Chn.lvclass"/>
+				<Item Name="CIF_NI_CIPC.lvlib" Type="Library" URL="/&lt;vilib&gt;/CIF Foundation/CIF CIPC/CIF_NI_CIPC.lvlib"/>
+				<Item Name="CIF_CIPC_Chn_U64.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/CIF Foundation/CIF Channels Core/CIPC_Channels/U64/CIF_CIPC_Chn_U64.lvclass"/>
+				<Item Name="CIF_CIPC_Chn_I64.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/CIF Foundation/CIF Channels Core/CIPC_Channels/I64/CIF_CIPC_Chn_I64.lvclass"/>
+				<Item Name="CIF_CIPC_Fifo_U8.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/CIF Foundation/CIF Channels Core/CIPC_Channels/FIFO_U8/CIF_CIPC_Fifo_U8.lvclass"/>
+				<Item Name="CIF_CIPC_CAN.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/CIF Foundation/CIF Channels Core/CIPC_Channels/FIFO_CAN/CIF_CIPC_CAN.lvclass"/>
+				<Item Name="CIF_CIPC_L2Enet.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/CIF Foundation/CIF Channels Core/CIPC_Channels/FIFO_L2Enet/CIF_CIPC_L2Enet.lvclass"/>
+				<Item Name="CIF_CIPC_Fifo_DAQ.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/CIF Foundation/CIF Channels Core/CIPC_Channels/FIFO_DAQ/CIF_CIPC_Fifo_DAQ.lvclass"/>
+				<Item Name="CIF_CIPC_Universal.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/CIF Foundation/CIF Channels Core/CIPC_Channels/FIFO_Universal/CIF_CIPC_Universal.lvclass"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="openg_error.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/openg_error.lvlib"/>
@@ -547,15 +572,6 @@
 			<Item Name="mxLvGetItem.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvGetItem.vi"/>
 			<Item Name="TemplateCommon.lvlib" Type="Library" URL="../../Common/TemplateCommon.lvlib"/>
 			<Item Name="ChannelRegistrar.lvlib" Type="Library" URL="../../../../CIF-LVCore/src/Channels/ChannelRegistrar/ChannelRegistrar.lvlib"/>
-			<Item Name="CIF_NIChn_U64.lvclass" Type="LVClass" URL="../../../../CIF-LVCore/src/Channels/CIF_NIChn/U64/CIF_NIChn_U64.lvclass"/>
-			<Item Name="CIFChannels.lvclass" Type="LVClass" URL="../../../../CIF-LVCore/src/Channels/CIFChannels/CIFChannels.lvclass"/>
-			<Item Name="ChannelCommon.lvlib" Type="Library" URL="../../../../CIF-LVCore/src/Channels/ChannelCommon/ChannelCommon.lvlib"/>
-			<Item Name="CIF_NIChn.lvclass" Type="LVClass" URL="../../../../CIF-LVCore/src/Channels/CIF_NIChn/NIChn/CIF_NIChn.lvclass"/>
-			<Item Name="CIF_NIChn_I64.lvclass" Type="LVClass" URL="../../../../CIF-LVCore/src/Channels/CIF_NIChn/I64/CIF_NIChn_I64.lvclass"/>
-			<Item Name="CIF_NIChn_Double.lvclass" Type="LVClass" URL="../../../../CIF-LVCore/src/Channels/CIF_NIChn/Double/CIF_NIChn_Double.lvclass"/>
-			<Item Name="CIF_NIChn_FifoCAN.lvclass" Type="LVClass" URL="../../../../CIF-LVCore/src/Channels/CIF_NIChn/FIFO_CAN/CIF_NIChn_FifoCAN.lvclass"/>
-			<Item Name="CIFfifo.lvclass" Type="LVClass" URL="../../../../CIF-LVCore/src/Channels/ChannelCommon/CIFFIFO/CIFfifo.lvclass"/>
-			<Item Name="CIF_NIChn_Fifo_DAQ.lvclass" Type="LVClass" URL="../../../../CIF-LVCore/src/Channels/CIF_NIChn/FIFO_DAQ/CIF_NIChn_Fifo_DAQ.lvclass"/>
 			<Item Name="mxLvUpdateUI.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvUpdateUI.ctl"/>
 			<Item Name="mxLvSetName.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvSetName.vi"/>
 			<Item Name="mxLvUpdateUI.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvUpdateUI.vi"/>
@@ -579,8 +595,6 @@
 			<Item Name="provcom_CheckChannelControlConPane.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_CheckChannelControlConPane.vi"/>
 			<Item Name="Template_client.lvlib" Type="Library" URL="../../Grpc/Template_client/Template_client.lvlib"/>
 			<Item Name="TemplateWrapper.lvlib" Type="Library" URL="../../Grpc/Template_wrapper/TemplateWrapper.lvlib"/>
-			<Item Name="LabVIEW Time to UTC Time.vi" Type="VI" URL="../../../../CIF-LVCore/src/CIFUtilities/CIFClocks/Time Conversion/LabVIEW Time to UTC Time.vi"/>
-			<Item Name="Append Error Location.vi" Type="VI" URL="../../../../CIF-LVCore/src/CIFCore/Common/Utilities/Append Error Location.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="UI Plugin" Type="Packed Library">
@@ -594,8 +608,9 @@
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/CIF Build Actions.lvlib/Core/UI Post-Build Action.vi</Property>
 				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/CIF Build Actions.lvlib/Core/UI Pre-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{05547330-7608-4C70-A459-D72560977C4B}</Property>
-				<Property Name="Bld_version.build" Type="Int">23</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Bld_version.minor" Type="Int">3</Property>
 				<Property Name="Destination[0].destName" Type="Str">CIF_Template_UI.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/D/dev/builds/TemplatePlugin/UI/NI_AB_PROJECTNAME.lvlibp</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
@@ -606,7 +621,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{10C53C88-1D27-471C-A36E-8C94595A2874}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{DB606272-2A10-44E2-9193-D957D5F58261}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/CIF Template UI.lvlib</Property>
