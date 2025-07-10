@@ -15,7 +15,6 @@ Version 2.0.0 - Support for subpanel based UI</Property>
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="Update Configuration Control.vi" Type="VI" URL="../SubVIs/Update Configuration Control.vi"/>
 	</Item>
-	<Item Name="CIF Template UI _orig.vi" Type="VI" URL="../CIF Template UI _orig.vi"/>
 	<Item Name="CIF Template UI.vi" Type="VI" URL="../CIF Template UI.vi"/>
 	<Item Name="UI Subpanel.vi" Type="VI" URL="../UI Subpanel.vi"/>
 </Library>
