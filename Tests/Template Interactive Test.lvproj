@@ -163,6 +163,7 @@ AddOutputFilter chunkFilter
 				<Item Name="CIF_CIPC_L2Enet.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/CIF Foundation/CIF Channels Core/CIPC_Channels/FIFO_L2Enet/CIF_CIPC_L2Enet.lvclass"/>
 				<Item Name="CIF_CIPC_CAN.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/CIF Foundation/CIF Channels Core/CIPC_Channels/FIFO_CAN/CIF_CIPC_CAN.lvclass"/>
 				<Item Name="CIF_CIPC_Fifo_DAQ.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/CIF Foundation/CIF Channels Core/CIPC_Channels/FIFO_DAQ/CIF_CIPC_Fifo_DAQ.lvclass"/>
+				<Item Name="CIF_CIPC_Chn_String.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/CIF Foundation/CIF Channels Core/CIPC_Channels/String/CIF_CIPC_Chn_String.lvclass"/>
 			</Item>
 			<Item Name="CIFCorePlugin.lvclass" Type="LVClass" URL="../../../../CIF-LVCore/src/CIFCore/Class/CIFCorePlugin.lvclass"/>
 			<Item Name="CIFCoreCommon.lvlib" Type="Library" URL="../../../../CIF-LVCore/src/CIFCore/Common/CIFCoreCommon.lvlib"/>
