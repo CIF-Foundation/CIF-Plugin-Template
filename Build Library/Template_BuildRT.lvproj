@@ -694,21 +694,22 @@ AddOutputFilter chunkFilter
 			<Item Name="TemplatePlugin.lvclass" Type="LVClass" URL="../../Class/TemplatePlugin.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="TemplatePluginRT" Type="Packed Library">
+			<Item Name="PluginRT" Type="Packed Library">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{A53570B8-EA03-43C2-A6E2-1D5C5A9E4FE8}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">TemplatePluginRT</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">PluginRT</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/D/dev/builds/TemplatePlugin</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/CIF Build Actions.lvlib/Core/Plugin Pre-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{E1B1FFA6-FD1A-43A9-B4CA-878D53F65E7D}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/rt</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
-				<Property Name="Bld_version.major" Type="Int">2</Property>
-				<Property Name="Destination[0].destName" Type="Str">TemplatePlugin.2.0.0.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">/rt/TemplatePlugin.2.0.0.lvlibp</Property>
+				<Property Name="Bld_version.build" Type="UInt">6</Property>
+				<Property Name="Bld_version.major" Type="UInt">2</Property>
+				<Property Name="Bld_version.minor" Type="UInt">2</Property>
+				<Property Name="Bld_version.patch" Type="UInt">0</Property>
+				<Property Name="Destination[0].destName" Type="Str">TemplatePlugin.2.2.0.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">/rt/TemplatePlugin.2.2.0.lvlibp</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
@@ -716,7 +717,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Destination[1].path" Type="Path">/rt</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{79D7EA7B-CA00-4962-ACCA-8F90C732D593}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{581084DA-78AE-48F1-84BE-76CD5C3DCF7D}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/RT PXI Target/TemplatePlugin.lvlib</Property>
@@ -727,12 +728,12 @@ AddOutputFilter chunkFilter
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">TemplatePluginRT</Property>
-				<Property Name="TgtF_internalName" Type="Str">TemplatePluginRT</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">PluginRT</Property>
+				<Property Name="TgtF_internalName" Type="Str">PluginRT</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2024 </Property>
-				<Property Name="TgtF_productName" Type="Str">TemplatePluginRT</Property>
+				<Property Name="TgtF_productName" Type="Str">PluginRT</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{6DA0406C-9AB0-4143-8ABB-FB8A9909FCC3}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">TemplatePlugin.2.0.0.lvlibp</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">TemplatePlugin.2.2.0.lvlibp</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
