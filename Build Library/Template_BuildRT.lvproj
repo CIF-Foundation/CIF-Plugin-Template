@@ -704,7 +704,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{E1B1FFA6-FD1A-43A9-B4CA-878D53F65E7D}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/rt</Property>
-				<Property Name="Bld_version.build" Type="UInt">6</Property>
+				<Property Name="Bld_version.build" Type="UInt">16</Property>
 				<Property Name="Bld_version.major" Type="UInt">2</Property>
 				<Property Name="Bld_version.minor" Type="UInt">2</Property>
 				<Property Name="Bld_version.patch" Type="UInt">0</Property>
