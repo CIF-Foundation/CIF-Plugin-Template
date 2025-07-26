@@ -595,7 +595,6 @@
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/CIF Build Actions.lvlib/Core/UI Post-Build Action.vi</Property>
 				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/CIF Build Actions.lvlib/Core/UI Pre-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{05547330-7608-4C70-A459-D72560977C4B}</Property>
-				<Property Name="Bld_version.build" Type="Int">15</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">CIF_Template_UI.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/D/dev/builds/TemplatePlugin/UI/NI_AB_PROJECTNAME.lvlibp</Property>
@@ -607,7 +606,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{3D69104A-A99F-4FD4-9381-CCAF78A4EEC8}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{44D04533-3E3D-4CB3-9F63-458DDD3A6069}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/CIF Template UI.lvlib</Property>
@@ -636,10 +635,10 @@
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/D/dev/builds/TemplatePlugin/UI</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/CIF Build Actions.lvlib/Core/Plugin Pre-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{1E1BA232-7E6D-4D0F-AA4F-FFBBE32B88C6}</Property>
-				<Property Name="Bld_version.build" Type="Int">5</Property>
+				<Property Name="Bld_version.build" Type="Int">17</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
+				<Property Name="Bld_version.minor" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">CIF Template UI.2.0.0.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/D/dev/builds/TemplatePlugin/UI/CIF Template UI.2.0.0.lvlibp</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
@@ -650,7 +649,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{EFABFD90-3508-413A-8A87-F9FEC2CDF0A0}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{0D16D164-269E-4841-A1F2-0B1291C6BBEB}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/CIF Template UI.lvlib</Property>
