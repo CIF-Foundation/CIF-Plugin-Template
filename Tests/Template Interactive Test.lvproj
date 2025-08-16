@@ -67,7 +67,7 @@
 				<Item Name="Create NI GUID.vi" Type="VI" URL="/&lt;vilib&gt;/string/Create NI GUID.vi"/>
 				<Item Name="CIF_CIPC_Chn_I64.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/CIF Foundation/CIF Channels Core/CIPC_Channels/I64/CIF_CIPC_Chn_I64.lvclass"/>
 				<Item Name="CIF_CIPC_Chn_U64.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/CIF Foundation/CIF Channels Core/CIPC_Channels/U64/CIF_CIPC_Chn_U64.lvclass"/>
-				<Item Name="CIF_CIPC_Chn_String.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/CIF Foundation/CIF Channels Core/CIPC_Channels/String/CIF_CIPC_Chn_String.lvclass"/>
+				<Item Name="CIF_CIPC_Chn_String.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/CIF Foundation/CIF Channels Core/CIPC_Channels/string/CIF_CIPC_Chn_String.lvclass"/>
 				<Item Name="CIF_CIPC_Fifo_U8.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/CIF Foundation/CIF Channels Core/CIPC_Channels/FIFO_U8/CIF_CIPC_Fifo_U8.lvclass"/>
 				<Item Name="CIF_CIPC_CAN.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/CIF Foundation/CIF Channels Core/CIPC_Channels/FIFO_CAN/CIF_CIPC_CAN.lvclass"/>
 				<Item Name="CIF_CIPC_L2Enet.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/CIF Foundation/CIF Channels Core/CIPC_Channels/FIFO_L2Enet/CIF_CIPC_L2Enet.lvclass"/>
