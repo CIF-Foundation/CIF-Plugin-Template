@@ -97,7 +97,7 @@
 			<Item Name="CIFCoreChannel_server.lvlib" Type="Library" URL="../../../../../../CIF-LVCore/src/CIFCore/Grpc/CIFCoreChannel_server/CIFCoreChannel_server.lvlib"/>
 			<Item Name="CIF_Manager_client.lvlib" Type="Library" URL="../../../../../../CIF-LVCore/src/CIFPluginManager/CIFPluginManager/gRPC/CIF_Manager_client/CIF_Manager_client.lvlib"/>
 			<Item Name="CIFManagerClientWrapper.lvlib" Type="Library" URL="../../../../../../CIF-LVCore/src/CIFPluginManager/CIFPluginManager/gRPC/CIF_Manager_Client_Wrapper/CIFManagerClientWrapper.lvlib"/>
-			<Item Name="InstrumentStudio Plugin SDK.lvlib" Type="Library" URL="../../../../../../CIF-LVCore/src/Instrument Studio/PluginSDK/InstrumentStudio Plugin SDK.lvlib"/>
+			<Item Name="CIF_InstrumentStudio Plugin SDK.lvlib" Type="Library" URL="../../../../../../CIF-LVCore/src/Instrument Studio/PluginSDK/CIF_InstrumentStudio Plugin SDK.lvlib"/>
 			<Item Name="CIFCoreChannel_client.lvlib" Type="Library" URL="../../../../../../CIF-LVCore/src/CIFCore/Grpc/CIFCoreChannel_client/CIFCoreChannel_client.lvlib"/>
 			<Item Name="CIFCoreWrapper.lvlib" Type="Library" URL="../../../../../../CIF-LVCore/src/CIFCore/Grpc/CIFCoreWrapper/CIFCoreWrapper.lvlib"/>
 			<Item Name="CIFCorePlugin_client.lvlib" Type="Library" URL="../../../../../../CIF-LVCore/src/CIFCore/Grpc/CIFCorePlugin_client/CIFCorePlugin_client.lvlib"/>
