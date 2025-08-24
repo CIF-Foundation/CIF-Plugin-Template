@@ -19,13 +19,13 @@
 			<Item Name="Test R_W.vi" Type="VI" URL="../Test R_W.vi"/>
 		</Item>
 		<Item Name="Plugin gRPC" Type="Folder">
-			<Item Name="TemplateWrapper.lvlib" Type="Library" URL="../../Grpc/Template_wrapper/TemplateWrapper.lvlib"/>
+			<Item Name="Template_Wrapper.lvlib" Type="Library" URL="../../Grpc/Template_wrapper/Template_Wrapper.lvlib"/>
 			<Item Name="Template_server.lvlib" Type="Library" URL="../../Grpc/Template_server/Template_server.lvlib"/>
 			<Item Name="Template_client.lvlib" Type="Library" URL="../../Grpc/Template_client/Template_client.lvlib"/>
 		</Item>
-		<Item Name="TemplatePlugin.lvlib" Type="Library" URL="../../Callable Library/TemplatePlugin.lvlib"/>
-		<Item Name="TemplateCommon.lvlib" Type="Library" URL="../../Common/TemplateCommon.lvlib"/>
-		<Item Name="TemplatePlugin.lvclass" Type="LVClass" URL="../../Class/TemplatePlugin.lvclass"/>
+		<Item Name="Template_Plugin.lvlib" Type="Library" URL="../../Callable Library/Template_Plugin.lvlib"/>
+		<Item Name="Template_Common.lvlib" Type="Library" URL="../../Common/Template_Common.lvlib"/>
+		<Item Name="Template_Plugin.lvclass" Type="LVClass" URL="../../Class/Template_Plugin.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="JKI JSON Serialization.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/_JKI.lib/Serialization/JSON/JKI JSON Serialization.lvlib"/>
@@ -96,6 +96,8 @@
 				<Item Name="Sort 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Sort 1D Array.vim"/>
 				<Item Name="Sort 1D Array Core.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Helpers/Sort 1D Array Core.vim"/>
 				<Item Name="Less.vim" Type="VI" URL="/&lt;vilib&gt;/Comparison/Less.vim"/>
+				<Item Name="Get Control From Type Descriptor.vi" Type="VI" URL="/&lt;vilib&gt;/CIF Foundation/CIF LabVIEW Scripting/Update Enum/Get Control From Type Descriptor.vi"/>
+				<Item Name="Update Enum.lvlib" Type="Library" URL="/&lt;vilib&gt;/CIF Foundation/CIF LabVIEW Scripting/Update Enum/Update Enum.lvlib"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="openg_variant.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/openg_variant.lvlib"/>

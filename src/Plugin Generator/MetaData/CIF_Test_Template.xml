@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="Windows-1252" standalone="yes"?>
+<MetaData>
+	<ProjectTemplate>
+		<Title localize="yes">CIF Plugin</Title>
+		<Description localize="yes">Generate the libraries and classes needed for a new CIF (Composable Instrumentation Framework) plugin.</Description>
+		<Filters localize="yes">CIF Foundation</Filters>
+		<LocationPath>CIF/Plugin Generator</LocationPath>
+		<ListboxImagePath>images/CIF_Top.png</ListboxImagePath>
+        <ProjectPath>dummy/Dummy.lvproj</ProjectPath>
+		<SortPriority>101</SortPriority>
+		<CustomVIMode>AfterPage2WithUI</CustomVIMode>
+		<MetaDataClass>CIF_Plugin_Generator.lvclass</MetaDataClass>
+		<CustomVIPath>AfterPage2_UI.vi</CustomVIPath>
+	    <HidePrefix>True</HidePrefix>
+		<HideIconOverlay>True</HideIconOverlay>
+	</ProjectTemplate>
+</MetaData>
