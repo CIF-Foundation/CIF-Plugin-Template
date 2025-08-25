@@ -682,8 +682,8 @@ AddOutputFilter chunkFilter
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="Template_Common.lvlib" Type="Library" URL="../../Common/Template_Common.lvlib"/>
+			<Item Name="Template_Plugin.lvclass" Type="LVClass" URL="../../Class/Template_Plugin.lvclass"/>
 			<Item Name="Template_server.lvlib" Type="Library" URL="../../Grpc/Template_server/Template_server.lvlib"/>
-			<Item Name="TemplatePlugin.lvclass" Type="LVClass" URL="../../Class/TemplatePlugin.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="PluginRT" Type="Packed Library">
