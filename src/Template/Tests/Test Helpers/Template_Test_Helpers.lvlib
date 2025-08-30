@@ -10,8 +10,7 @@
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="Create Test Channels.vi" Type="VI" URL="../SubVIs/Create Test Channels.vi"/>
 		<Item Name="Invert Channel Direction.vi" Type="VI" URL="../SubVIs/Invert Channel Direction.vi"/>
-		<Item Name="Link Channels.vi" Type="VI" URL="../SubVIs/Link Channels.vi"/>
+		<Item Name="Link Test Channels.vi" Type="VI" URL="../SubVIs/Link Test Channels.vi"/>
 	</Item>
 	<Item Name="Channel Read Write.vi" Type="VI" URL="../Channel Read Write.vi"/>
-	<Item Name="Orig_Channel Read Write.vi" Type="VI" URL="../Orig_Channel Read Write.vi"/>
 </Library>
