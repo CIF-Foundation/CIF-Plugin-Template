@@ -22,6 +22,7 @@
 		<Item Name="Get proto Style Names.vi" Type="VI" URL="../SubVIs/Get proto Style Names.vi"/>
 		<Item Name="Generate proto file.vi" Type="VI" URL="../SubVIs/Generate proto file.vi"/>
 		<Item Name="Replace Missing Dependency VIs - Client Wrapper.vi" Type="VI" URL="../SubVIs/Replace Missing Dependency VIs - Client Wrapper.vi"/>
+		<Item Name="Update Documentation.vi" Type="VI" URL="../SubVIs/Update Documentation.vi"/>
 		<Item Name="Fix gRPC Server Dependencies.vi" Type="VI" URL="../SubVIs/Fix gRPC Server Dependencies.vi"/>
 		<Item Name="Fix gRPC Register Dependencies.vi" Type="VI" URL="../SubVIs/Fix gRPC Register Dependencies.vi"/>
 		<Item Name="Resolve Plugin Class gRPC Dependencies.vi" Type="VI" URL="../SubVIs/Resolve Plugin Class gRPC Dependencies.vi"/>
@@ -31,6 +32,7 @@
 		<Item Name="Resolve Client Wrapper gRPC Dependencies.vi" Type="VI" URL="../SubVIs/Resolve Client Wrapper gRPC Dependencies.vi"/>
 	</Item>
 	<Item Name="Typedef" Type="Folder">
+		<Item Name="Documentation Info.ctl" Type="VI" URL="../Typedef/Documentation Info.ctl"/>
 		<Item Name="Proto Names.ctl" Type="VI" URL="../Typedef/Proto Names.ctl"/>
 	</Item>
 	<Item Name="CIF Generate Top Level.vi" Type="VI" URL="../CIF Generate Top Level.vi"/>
