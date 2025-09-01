@@ -23,6 +23,9 @@
 			<Item Name="Template_server.lvlib" Type="Library" URL="../../Grpc/Template_server/Template_server.lvlib"/>
 			<Item Name="Template_client.lvlib" Type="Library" URL="../../Grpc/Template_client/Template_client.lvlib"/>
 		</Item>
+		<Item Name="Instructions" Type="Folder">
+			<Item Name="Out of Band Communication Instructions.docx" Type="Document" URL="../../Callable Library/Documentation/Out of Band Communication Instructions.docx"/>
+		</Item>
 		<Item Name="Template_Plugin.lvlib" Type="Library" URL="../../Callable Library/Template_Plugin.lvlib"/>
 		<Item Name="Template_Common.lvlib" Type="Library" URL="../../Common/Template_Common.lvlib"/>
 		<Item Name="Template_Plugin.lvclass" Type="LVClass" URL="../../Class/Template_Plugin.lvclass"/>
