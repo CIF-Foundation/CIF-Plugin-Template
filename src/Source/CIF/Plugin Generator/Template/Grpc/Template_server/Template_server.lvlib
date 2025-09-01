@@ -9,6 +9,48 @@
 
 </Property>
 	<Item Name="RPC Messages" Type="Folder">
+		<Item Name="cif_common_TimingStats" Type="Folder">
+			<Item Name="cif_common_TimingStats.ctl" Type="VI" URL="../RPC Messages/cif_common_TimingStats.ctl"/>
+			<Item Name="FlatToRichcif_common_TimingStats.vi" Type="VI" URL="../RPC Messages/FlatToRichcif_common_TimingStats.vi"/>
+			<Item Name="RichToFlatcif_common_TimingStats.vi" Type="VI" URL="../RPC Messages/RichToFlatcif_common_TimingStats.vi"/>
+			<Item Name="Set cif_common_TimingStats.vi" Type="VI" URL="../RPC Messages/Set cif_common_TimingStats.vi"/>
+			<Item Name="Get cif_common_TimingStats.vi" Type="VI" URL="../RPC Messages/Get cif_common_TimingStats.vi"/>
+		</Item>
+		<Item Name="cif_common_Version" Type="Folder">
+			<Item Name="cif_common_Version.ctl" Type="VI" URL="../RPC Messages/cif_common_Version.ctl"/>
+			<Item Name="FlatToRichcif_common_Version.vi" Type="VI" URL="../RPC Messages/FlatToRichcif_common_Version.vi"/>
+			<Item Name="RichToFlatcif_common_Version.vi" Type="VI" URL="../RPC Messages/RichToFlatcif_common_Version.vi"/>
+			<Item Name="Set cif_common_Version.vi" Type="VI" URL="../RPC Messages/Set cif_common_Version.vi"/>
+			<Item Name="Get cif_common_Version.vi" Type="VI" URL="../RPC Messages/Get cif_common_Version.vi"/>
+		</Item>
+		<Item Name="cif_common_ShortVersion" Type="Folder">
+			<Item Name="cif_common_ShortVersion.ctl" Type="VI" URL="../RPC Messages/cif_common_ShortVersion.ctl"/>
+			<Item Name="FlatToRichcif_common_ShortVersion.vi" Type="VI" URL="../RPC Messages/FlatToRichcif_common_ShortVersion.vi"/>
+			<Item Name="RichToFlatcif_common_ShortVersion.vi" Type="VI" URL="../RPC Messages/RichToFlatcif_common_ShortVersion.vi"/>
+			<Item Name="Set cif_common_ShortVersion.vi" Type="VI" URL="../RPC Messages/Set cif_common_ShortVersion.vi"/>
+			<Item Name="Get cif_common_ShortVersion.vi" Type="VI" URL="../RPC Messages/Get cif_common_ShortVersion.vi"/>
+		</Item>
+		<Item Name="cif_common_PluginNames" Type="Folder">
+			<Item Name="cif_common_PluginNames.ctl" Type="VI" URL="../RPC Messages/cif_common_PluginNames.ctl"/>
+			<Item Name="FlatToRichcif_common_PluginNames.vi" Type="VI" URL="../RPC Messages/FlatToRichcif_common_PluginNames.vi"/>
+			<Item Name="RichToFlatcif_common_PluginNames.vi" Type="VI" URL="../RPC Messages/RichToFlatcif_common_PluginNames.vi"/>
+			<Item Name="Set cif_common_PluginNames.vi" Type="VI" URL="../RPC Messages/Set cif_common_PluginNames.vi"/>
+			<Item Name="Get cif_common_PluginNames.vi" Type="VI" URL="../RPC Messages/Get cif_common_PluginNames.vi"/>
+		</Item>
+		<Item Name="cif_common_Status" Type="Folder">
+			<Item Name="cif_common_Status.ctl" Type="VI" URL="../RPC Messages/cif_common_Status.ctl"/>
+			<Item Name="FlatToRichcif_common_Status.vi" Type="VI" URL="../RPC Messages/FlatToRichcif_common_Status.vi"/>
+			<Item Name="RichToFlatcif_common_Status.vi" Type="VI" URL="../RPC Messages/RichToFlatcif_common_Status.vi"/>
+			<Item Name="Set cif_common_Status.vi" Type="VI" URL="../RPC Messages/Set cif_common_Status.vi"/>
+			<Item Name="Get cif_common_Status.vi" Type="VI" URL="../RPC Messages/Get cif_common_Status.vi"/>
+		</Item>
+		<Item Name="cif_common_Empty" Type="Folder">
+			<Item Name="cif_common_Empty.ctl" Type="VI" URL="../RPC Messages/cif_common_Empty.ctl"/>
+			<Item Name="FlatToRichcif_common_Empty.vi" Type="VI" URL="../RPC Messages/FlatToRichcif_common_Empty.vi"/>
+			<Item Name="RichToFlatcif_common_Empty.vi" Type="VI" URL="../RPC Messages/RichToFlatcif_common_Empty.vi"/>
+			<Item Name="Set cif_common_Empty.vi" Type="VI" URL="../RPC Messages/Set cif_common_Empty.vi"/>
+			<Item Name="Get cif_common_Empty.vi" Type="VI" URL="../RPC Messages/Get cif_common_Empty.vi"/>
+		</Item>
 		<Item Name="cif_template_Numeric" Type="Folder">
 			<Item Name="cif_template_Numeric.ctl" Type="VI" URL="../RPC Messages/cif_template_Numeric.ctl"/>
 			<Item Name="FlatToRichcif_template_Numeric.vi" Type="VI" URL="../RPC Messages/FlatToRichcif_template_Numeric.vi"/>
@@ -23,31 +65,29 @@
 			<Item Name="Set cif_template_Result.vi" Type="VI" URL="../RPC Messages/Set cif_template_Result.vi"/>
 			<Item Name="Get cif_template_Result.vi" Type="VI" URL="../RPC Messages/Get cif_template_Result.vi"/>
 		</Item>
-		<Item Name="cif_template_Status" Type="Folder">
-			<Item Name="cif_template_Status.ctl" Type="VI" URL="../RPC Messages/cif_template_Status.ctl"/>
-			<Item Name="FlatToRichcif_template_Status.vi" Type="VI" URL="../RPC Messages/FlatToRichcif_template_Status.vi"/>
-			<Item Name="RichToFlatcif_template_Status.vi" Type="VI" URL="../RPC Messages/RichToFlatcif_template_Status.vi"/>
-			<Item Name="Set cif_template_Status.vi" Type="VI" URL="../RPC Messages/Set cif_template_Status.vi"/>
-			<Item Name="Get cif_template_Status.vi" Type="VI" URL="../RPC Messages/Get cif_template_Status.vi"/>
+		<Item Name="cif_common_TimingStats_Flat" Type="Folder">
+			<Item Name="cif_common_TimingStats_Flat.ctl" Type="VI" URL="../RPC Messages/cif_common_TimingStats_Flat.ctl"/>
 		</Item>
-		<Item Name="cif_template_Empty" Type="Folder">
-			<Item Name="cif_template_Empty.ctl" Type="VI" URL="../RPC Messages/cif_template_Empty.ctl"/>
-			<Item Name="FlatToRichcif_template_Empty.vi" Type="VI" URL="../RPC Messages/FlatToRichcif_template_Empty.vi"/>
-			<Item Name="RichToFlatcif_template_Empty.vi" Type="VI" URL="../RPC Messages/RichToFlatcif_template_Empty.vi"/>
-			<Item Name="Set cif_template_Empty.vi" Type="VI" URL="../RPC Messages/Set cif_template_Empty.vi"/>
-			<Item Name="Get cif_template_Empty.vi" Type="VI" URL="../RPC Messages/Get cif_template_Empty.vi"/>
+		<Item Name="cif_common_Version_Flat" Type="Folder">
+			<Item Name="cif_common_Version_Flat.ctl" Type="VI" URL="../RPC Messages/cif_common_Version_Flat.ctl"/>
+		</Item>
+		<Item Name="cif_common_ShortVersion_Flat" Type="Folder">
+			<Item Name="cif_common_ShortVersion_Flat.ctl" Type="VI" URL="../RPC Messages/cif_common_ShortVersion_Flat.ctl"/>
+		</Item>
+		<Item Name="cif_common_PluginNames_Flat" Type="Folder">
+			<Item Name="cif_common_PluginNames_Flat.ctl" Type="VI" URL="../RPC Messages/cif_common_PluginNames_Flat.ctl"/>
+		</Item>
+		<Item Name="cif_common_Status_Flat" Type="Folder">
+			<Item Name="cif_common_Status_Flat.ctl" Type="VI" URL="../RPC Messages/cif_common_Status_Flat.ctl"/>
+		</Item>
+		<Item Name="cif_common_Empty_Flat" Type="Folder">
+			<Item Name="cif_common_Empty_Flat.ctl" Type="VI" URL="../RPC Messages/cif_common_Empty_Flat.ctl"/>
 		</Item>
 		<Item Name="cif_template_Numeric_Flat" Type="Folder">
 			<Item Name="cif_template_Numeric_Flat.ctl" Type="VI" URL="../RPC Messages/cif_template_Numeric_Flat.ctl"/>
 		</Item>
 		<Item Name="cif_template_Result_Flat" Type="Folder">
 			<Item Name="cif_template_Result_Flat.ctl" Type="VI" URL="../RPC Messages/cif_template_Result_Flat.ctl"/>
-		</Item>
-		<Item Name="cif_template_Status_Flat" Type="Folder">
-			<Item Name="cif_template_Status_Flat.ctl" Type="VI" URL="../RPC Messages/cif_template_Status_Flat.ctl"/>
-		</Item>
-		<Item Name="cif_template_Empty_Flat" Type="Folder">
-			<Item Name="cif_template_Empty_Flat.ctl" Type="VI" URL="../RPC Messages/cif_template_Empty_Flat.ctl"/>
 		</Item>
 		<Item Name="Register gRPC Messages.vi" Type="VI" URL="../RPC Messages/Register gRPC Messages.vi"/>
 	</Item>
