@@ -692,16 +692,15 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_buildSpecName" Type="Str">PluginRT</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/D/dev/builds/TemplatePlugin</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Public/Documents/CIF/builds/TemplatePlugin</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{E1B1FFA6-FD1A-43A9-B4CA-878D53F65E7D}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/rt</Property>
-				<Property Name="Bld_version.build" Type="UInt">19</Property>
-				<Property Name="Bld_version.major" Type="UInt">2</Property>
-				<Property Name="Bld_version.minor" Type="UInt">3</Property>
-				<Property Name="Bld_version.patch" Type="UInt">0</Property>
-				<Property Name="Destination[0].destName" Type="Str">Template_Plugin.2.3.0.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">/rt/Template_Plugin.2.3.0.lvlibp</Property>
+				<Property Name="Bld_version.build" Type="Int">19</Property>
+				<Property Name="Bld_version.major" Type="Int">2</Property>
+				<Property Name="Bld_version.minor" Type="Int">3</Property>
+				<Property Name="Destination[0].destName" Type="Str">Template_Plugin.1.0.0.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">/rt/Template_Plugin.1.0.0.lvlibp</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
@@ -709,7 +708,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Destination[1].path" Type="Path">/rt</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{581084DA-78AE-48F1-84BE-76CD5C3DCF7D}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{BCDDBE0B-9505-4020-BE27-CD9067F4E762}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/RT PXI Target/Template_Plugin.lvlib</Property>
@@ -725,7 +724,7 @@ AddOutputFilter chunkFilter
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2024 </Property>
 				<Property Name="TgtF_productName" Type="Str">PluginRT</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{6DA0406C-9AB0-4143-8ABB-FB8A9909FCC3}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Template_Plugin.2.3.0.lvlibp</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Template_Plugin.1.0.0.lvlibp</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>

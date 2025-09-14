@@ -10,6 +10,7 @@
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="Backup client and server.vi" Type="VI" URL="../SubVIs/Backup client and server.vi"/>
 		<Item Name="Cleanup client and server backup.vi" Type="VI" URL="../SubVIs/Cleanup client and server backup.vi"/>
+		<Item Name="Revert User Dialog.vi" Type="VI" URL="../SubVIs/Revert User Dialog.vi"/>
 		<Item Name="Script gRPC.vi" Type="VI" URL="../SubVIs/Script gRPC.vi"/>
 	</Item>
 	<Item Name="Regenerate gRPC code.vi" Type="VI" URL="../Regenerate gRPC code.vi"/>
