@@ -11,6 +11,7 @@ package cif.template;
 service Template {
   rpc SetNumeric (Numeric) returns (cif.common.Status) {}
   rpc GetResult (cif.common.Empty) returns (Result) {}
+  rpc GetStatistics (cif.common.Empty) returns (Statistics) {}
 }
 
 message Numeric {
@@ -19,4 +20,8 @@ message Numeric {
 
 message Result {
    int32 result = 1;
+}
+
+message Statistics {
+   uint64 iterations = 1;
 }

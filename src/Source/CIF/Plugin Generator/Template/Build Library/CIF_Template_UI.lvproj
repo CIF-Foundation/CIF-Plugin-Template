@@ -445,6 +445,23 @@
 				<Item Name="TRef Traverse.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef Traverse.vi"/>
 				<Item Name="Update Enum.lvlib" Type="Library" URL="/&lt;vilib&gt;/CIF Foundation/CIF LabVIEW Scripting/Update Enum/Update Enum.lvlib"/>
 				<Item Name="Get Control From Type Descriptor.vi" Type="VI" URL="/&lt;vilib&gt;/CIF Foundation/CIF LabVIEW Scripting/Update Enum/Get Control From Type Descriptor.vi"/>
+				<Item Name="CIFCorePlugin.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/CIF Foundation/CIF Core/CIFCore/Class/CIFCorePlugin.lvclass"/>
+				<Item Name="gRPC-servicer-release.lvlib" Type="Library" URL="/&lt;vilib&gt;/gRPC/LabVIEW gRPC Servicer/gRPC-servicer-release.lvlib"/>
+				<Item Name="CIFChannelMng.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/CIF Foundation/CIF Core/Channels/CIFChannelMng/CIFChannelMng.lvclass"/>
+				<Item Name="CIF_NI_CIPC.lvlib" Type="Library" URL="/&lt;vilib&gt;/CIF Foundation/CIF CIPC/CIF_NI_CIPC.lvlib"/>
+				<Item Name="CIF_CIPC_Chn.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/CIF Foundation/CIF Channels Core/CIPC_Channels/CIF_CIPC_Chan/CIF_CIPC_Chn.lvclass"/>
+				<Item Name="CIF_CIPC_Chn_I64.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/CIF Foundation/CIF Channels Core/CIPC_Channels/I64/CIF_CIPC_Chn_I64.lvclass"/>
+				<Item Name="CIF_CIPC_Chn_U64.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/CIF Foundation/CIF Channels Core/CIPC_Channels/U64/CIF_CIPC_Chn_U64.lvclass"/>
+				<Item Name="CIF_CIPC_Chn_Double.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/CIF Foundation/CIF Channels Core/CIPC_Channels/Double/CIF_CIPC_Chn_Double.lvclass"/>
+				<Item Name="CIFLogs.lvlib" Type="Library" URL="/&lt;vilib&gt;/CIF Foundation/CIF Core/CIFUtilities/CIFLogs/CIFLogs.lvlib"/>
+				<Item Name="CIFCorePlugin_server.lvlib" Type="Library" URL="/&lt;vilib&gt;/CIF Foundation/CIF Core/CIFCore/Grpc/CIFCorePlugin_server/CIFCorePlugin_server.lvlib"/>
+				<Item Name="CIFCoreChannel_server.lvlib" Type="Library" URL="/&lt;vilib&gt;/CIF Foundation/CIF Core/CIFCore/Grpc/CIFCoreChannel_server/CIFCoreChannel_server.lvlib"/>
+				<Item Name="CIF_CIPC_Universal.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/CIF Foundation/CIF Channels Core/CIPC_Channels/FIFO_Universal/CIF_CIPC_Universal.lvclass"/>
+				<Item Name="CIF_CIPC_Fifo_U8.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/CIF Foundation/CIF Channels Core/CIPC_Channels/FIFO_U8/CIF_CIPC_Fifo_U8.lvclass"/>
+				<Item Name="CIF_CIPC_L2Enet.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/CIF Foundation/CIF Channels Core/CIPC_Channels/FIFO_L2Enet/CIF_CIPC_L2Enet.lvclass"/>
+				<Item Name="CIF_CIPC_CAN.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/CIF Foundation/CIF Channels Core/CIPC_Channels/FIFO_CAN/CIF_CIPC_CAN.lvclass"/>
+				<Item Name="CIF_CIPC_Fifo_DAQ.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/CIF Foundation/CIF Channels Core/CIPC_Channels/FIFO_DAQ/CIF_CIPC_Fifo_DAQ.lvclass"/>
+				<Item Name="CIF_CIPC_Chn_String.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/CIF Foundation/CIF Channels Core/CIPC_Channels/String/CIF_CIPC_Chn_String.lvclass"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="openg_error.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/openg_error.lvlib"/>
@@ -573,6 +590,8 @@
 			<Item Name="provcom_IsDesktopTargetBehavior.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_IsDesktopTargetBehavior.vi"/>
 			<Item Name="provcom_GetObjectItemFromProjectItem.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_GetObjectItemFromProjectItem.vi"/>
 			<Item Name="provcom_CheckChannelControlConPane.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_CheckChannelControlConPane.vi"/>
+			<Item Name="Template_Plugin.lvclass" Type="LVClass" URL="../../Class/Template_Plugin.lvclass"/>
+			<Item Name="Template_server.lvlib" Type="Library" URL="../../Grpc/Template_server/Template_server.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="UI Plugin" Type="Packed Library">
@@ -586,9 +605,10 @@
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/CIF Build Actions.lvlib/Core/UI Post-Build Action.vi</Property>
 				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/CIF Build Actions.lvlib/Core/UI Pre-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{05547330-7608-4C70-A459-D72560977C4B}</Property>
-				<Property Name="Bld_version.build" Type="Int">18</Property>
-				<Property Name="Bld_version.major" Type="Int">2</Property>
-				<Property Name="Bld_version.minor" Type="Int">3</Property>
+				<Property Name="Bld_version.build" Type="UInt">1</Property>
+				<Property Name="Bld_version.major" Type="UInt">1</Property>
+				<Property Name="Bld_version.minor" Type="UInt">0</Property>
+				<Property Name="Bld_version.patch" Type="UInt">0</Property>
 				<Property Name="Destination[0].destName" Type="Str">CIF_Template_UI.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Users/Public/Documents/CIF/builds/TemplatePlugin/UI/NI_AB_PROJECTNAME.lvlibp</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
@@ -629,11 +649,12 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Public/Documents/CIF/PluginUI</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{1E1BA232-7E6D-4D0F-AA4F-FFBBE32B88C6}</Property>
-				<Property Name="Bld_version.build" Type="Int">18</Property>
-				<Property Name="Bld_version.major" Type="Int">2</Property>
-				<Property Name="Bld_version.minor" Type="Int">3</Property>
-				<Property Name="Destination[0].destName" Type="Str">CIF Template UI.2.0.0.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/Users/Public/Documents/CIF/PluginUI/CIF Template UI.2.0.0.lvlibp</Property>
+				<Property Name="Bld_version.build" Type="UInt">1</Property>
+				<Property Name="Bld_version.major" Type="UInt">1</Property>
+				<Property Name="Bld_version.minor" Type="UInt">0</Property>
+				<Property Name="Bld_version.patch" Type="UInt">0</Property>
+				<Property Name="Destination[0].destName" Type="Str">CIF Template UI.1.0.0.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Users/Public/Documents/CIF/PluginUI/CIF Template UI.1.0.0.lvlibp</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
@@ -658,7 +679,7 @@
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2025 </Property>
 				<Property Name="TgtF_productName" Type="Str">UI Plugin Versioned</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{B0BA265F-1701-4826-B8CA-5C9F74FC0E2A}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">CIF Template UI.2.0.0.lvlibp</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">CIF Template UI.1.0.0.lvlibp</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>

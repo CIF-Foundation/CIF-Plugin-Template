@@ -65,6 +65,13 @@
 			<Item Name="Set cif_template_Result.vi" Type="VI" URL="../RPC Messages/Set cif_template_Result.vi"/>
 			<Item Name="Get cif_template_Result.vi" Type="VI" URL="../RPC Messages/Get cif_template_Result.vi"/>
 		</Item>
+		<Item Name="cif_template_Statistics" Type="Folder">
+			<Item Name="cif_template_Statistics.ctl" Type="VI" URL="../RPC Messages/cif_template_Statistics.ctl"/>
+			<Item Name="FlatToRichcif_template_Statistics.vi" Type="VI" URL="../RPC Messages/FlatToRichcif_template_Statistics.vi"/>
+			<Item Name="RichToFlatcif_template_Statistics.vi" Type="VI" URL="../RPC Messages/RichToFlatcif_template_Statistics.vi"/>
+			<Item Name="Get cif_template_Statistics.vi" Type="VI" URL="../RPC Messages/Get cif_template_Statistics.vi"/>
+			<Item Name="Set cif_template_Statistics.vi" Type="VI" URL="../RPC Messages/Set cif_template_Statistics.vi"/>
+		</Item>
 		<Item Name="cif_common_TimingStats_Flat" Type="Folder">
 			<Item Name="cif_common_TimingStats_Flat.ctl" Type="VI" URL="../RPC Messages/cif_common_TimingStats_Flat.ctl"/>
 		</Item>
@@ -88,6 +95,9 @@
 		</Item>
 		<Item Name="cif_template_Result_Flat" Type="Folder">
 			<Item Name="cif_template_Result_Flat.ctl" Type="VI" URL="../RPC Messages/cif_template_Result_Flat.ctl"/>
+		</Item>
+		<Item Name="cif_template_Statistics_Flat" Type="Folder">
+			<Item Name="cif_template_Statistics_Flat.ctl" Type="VI" URL="../RPC Messages/cif_template_Statistics_Flat.ctl"/>
 		</Item>
 		<Item Name="Register gRPC Messages.vi" Type="VI" URL="../RPC Messages/Register gRPC Messages.vi"/>
 	</Item>

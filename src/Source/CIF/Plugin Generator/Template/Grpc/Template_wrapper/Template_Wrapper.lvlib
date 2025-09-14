@@ -14,6 +14,7 @@
 	</Item>
 	<Item Name="Commands" Type="Folder">
 		<Item Name="Get Result.vi" Type="VI" URL="../Commands/Get Result.vi"/>
+		<Item Name="Get Statistics.vi" Type="VI" URL="../Commands/Get Statistics.vi"/>
 		<Item Name="Set Numeric.vi" Type="VI" URL="../Commands/Set Numeric.vi"/>
 	</Item>
 </Library>
