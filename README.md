@@ -1,2 +1,2 @@
 # CIF-Plugin-Template
-Template for creating new plugins.  
+Template and LabVIEW Wizard for creating new plugins.  
