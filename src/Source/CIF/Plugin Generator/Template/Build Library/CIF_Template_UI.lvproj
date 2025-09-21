@@ -646,25 +646,23 @@
 				<Property Name="Bld_buildSpecName" Type="Str">UI Plugin Versioned</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Public/Documents/CIF/PluginUI</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Public/Documents/CIF/builds/TemplatePlugin/UI</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/CIF Build Actions.lvlib/Core/Versioned UI Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{1E1BA232-7E6D-4D0F-AA4F-FFBBE32B88C6}</Property>
-				<Property Name="Bld_version.build" Type="UInt">2</Property>
-				<Property Name="Bld_version.major" Type="UInt">1</Property>
-				<Property Name="Bld_version.minor" Type="UInt">0</Property>
-				<Property Name="Bld_version.patch" Type="UInt">0</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">CIF Template UI.1.0.0.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/Users/Public/Documents/CIF/PluginUI/CIF Template UI.1.0.0.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Users/Public/Documents/CIF/builds/TemplatePlugin/UI/CIF Template UI.1.0.0.lvlibp</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/Users/Public/Documents/CIF/PluginUI</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Users/Public/Documents/CIF/builds/TemplatePlugin/UI</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{A43AC6D2-AFB8-455A-AE60-28FBED7A9F76}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{E5708004-7A5E-46DD-B780-3B548E4F4D74}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/CIF Template UI.lvlib</Property>
