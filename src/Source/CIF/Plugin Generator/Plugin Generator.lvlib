@@ -31,6 +31,7 @@
 		<Item Name="Fix gRPC Client Dependencies.vi" Type="VI" URL="../SubVIs/Fix gRPC Client Dependencies.vi"/>
 		<Item Name="Resolve Client Wrapper gRPC Dependencies.vi" Type="VI" URL="../SubVIs/Resolve Client Wrapper gRPC Dependencies.vi"/>
 		<Item Name="Delete alias files.vi" Type="VI" URL="../SubVIs/Delete alias files.vi"/>
+		<Item Name="Rename File.vi" Type="VI" URL="../SubVIs/Rename File.vi"/>
 	</Item>
 	<Item Name="Typedef" Type="Folder">
 		<Item Name="Documentation Info.ctl" Type="VI" URL="../Typedef/Documentation Info.ctl"/>
