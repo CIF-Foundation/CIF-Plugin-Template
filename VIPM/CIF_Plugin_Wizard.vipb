@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-02-08 07:45:01" Modified_Date="2025-09-29 11:32:36" Creator="toddw" Comments="" ID="3bfc134de2bd9c17bcfb8d70eac94f50">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-02-08 07:45:01" Modified_Date="2025-10-06 21:01:34" Creator="toddw" Comments="" ID="4c1c5d2328263f3fdbecedea0556e62d">
   <Library_General_Settings>
     <Package_File_Name>CIF_Foundation_lib_Plugin_Wizard</Package_File_Name>
-    <Library_Version>1.2.0.2</Library_Version>
+    <Library_Version>1.2.0.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\..\builds\VIPM</Library_Output_Folder>
@@ -32,7 +32,7 @@
       <Copyright/>
       <Packager>DOME Automation</Packager>
       <URL/>
-      <Release_Notes>Support for core 1.1</Release_Notes>
+      <Release_Notes>bug fix on updating documentation on each build</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
