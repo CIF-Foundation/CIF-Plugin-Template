@@ -17,6 +17,7 @@
 		</Item>
 		<Item Name="Test Helpers" Type="Folder">
 			<Item Name="Template_Test_Helpers.lvlib" Type="Library" URL="../Test Helpers/Template_Test_Helpers.lvlib"/>
+			<Item Name="CIF Engine Launch.lvlib" Type="Library" URL="/&lt;vilib&gt;/CIF Foundation/CIF Core/CIFPluginManager/Build Library/CIF Engine Launch.lvlib"/>
 		</Item>
 		<Item Name="Plugin gRPC" Type="Folder">
 			<Item Name="Template_Wrapper.lvlib" Type="Library" URL="../../Grpc/Template_wrapper/Template_Wrapper.lvlib"/>
