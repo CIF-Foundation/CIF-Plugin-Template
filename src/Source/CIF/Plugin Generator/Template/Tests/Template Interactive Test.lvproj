@@ -17,7 +17,7 @@
 		</Item>
 		<Item Name="Test Helpers" Type="Folder">
 			<Item Name="Template_Test_Helpers.lvlib" Type="Library" URL="../Test Helpers/Template_Test_Helpers.lvlib"/>
-			<Item Name="CIF Engine Launch.lvlib" Type="Library" URL="/&lt;vilib&gt;/CIF Foundation/CIF Core/CIFPluginManager/Build Library/CIF Engine Launch.lvlib"/>
+			<Item Name="CIF Engine Launch.lvlib" Type="Library" URL="/&lt;vilib&gt;/CIF Foundation/CIF Core/CIFPluginManager/Engine Launch/CIF Engine Launch.lvlib"/>
 		</Item>
 		<Item Name="Plugin gRPC" Type="Folder">
 			<Item Name="Template_Wrapper.lvlib" Type="Library" URL="../../Grpc/Template_wrapper/Template_Wrapper.lvlib"/>
@@ -106,10 +106,17 @@
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
+				<Item Name="cif_channelcore_Direction.ctl" Type="VI" URL="/&lt;vilib&gt;/CIF Foundation/CIF Core/CIFCore/Grpc/CIFCoreChannel_client/RPC Messages/cif_channelcore_Direction.ctl"/>
+				<Item Name="cif_channelcore_PATTERN.ctl" Type="VI" URL="/&lt;vilib&gt;/CIF Foundation/CIF Core/CIFCore/Grpc/CIFCoreChannel_client/RPC Messages/cif_channelcore_PATTERN.ctl"/>
+				<Item Name="Get Command Line Arguments.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/Get Command Line Arguments.vi"/>
+				<Item Name="Service Template.lvlib" Type="Library" URL="/&lt;vilib&gt;/gRPC/gRPC Server and Client Template [2]/Server Template/Service Template.lvlib"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="openg_variant.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/openg_variant.lvlib"/>
 				<Item Name="openg_error.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/openg_error.lvlib"/>
+			</Item>
+			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
