@@ -595,7 +595,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/CIF Build Actions.lvlib/Core/Versioned Host Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{3E6AB6A9-CA13-496A-B37F-68FF980D4525}</Property>
-				<Property Name="Bld_version.build" Type="UInt">1</Property>
+				<Property Name="Bld_version.build" Type="UInt">4</Property>
 				<Property Name="Bld_version.major" Type="UInt">1</Property>
 				<Property Name="Bld_version.minor" Type="UInt">0</Property>
 				<Property Name="Bld_version.patch" Type="UInt">0</Property>
