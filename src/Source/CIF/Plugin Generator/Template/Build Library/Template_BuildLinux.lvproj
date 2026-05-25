@@ -620,7 +620,7 @@
 				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">PluginLinux</Property>
 				<Property Name="TgtF_internalName" Type="Str">PluginLinux</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2025 </Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2025 CIF Foundation</Property>
 				<Property Name="TgtF_productName" Type="Str">PluginLinux</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{5B0DB68A-8D34-42D5-8BC2-16A52FB2FBA3}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Template_Plugin.1.0.0.lvlibp</Property>

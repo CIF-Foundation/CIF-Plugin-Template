@@ -1,3 +1,10 @@
+// Copyright © 2025 CIF Foundation
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+// Template for CIF plugin gRPC services. You may copy and modify this file
+// for use in your own CIF plugins. See LICENSE for full license terms.
+
 syntax = "proto3";
 
 import "cif_common.proto";

@@ -632,11 +632,11 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_companyName" Type="Str">National Instruments</Property>
+				<Property Name="TgtF_companyName" Type="Str">CIF Foundation</Property>
 				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">UI Plugin</Property>
 				<Property Name="TgtF_internalName" Type="Str">UI Plugin</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2021 National Instruments</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2025 CIF Foundation</Property>
 				<Property Name="TgtF_productName" Type="Str">UI Plugin</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{F7659C57-F4CE-491C-8E27-3332458AFB6A}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">CIF_Template_UI.lvlibp</Property>
@@ -679,7 +679,7 @@
 				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">UI Plugin Versioned</Property>
 				<Property Name="TgtF_internalName" Type="Str">UI Plugin Versioned</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2025 </Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2025 CIF Foundation</Property>
 				<Property Name="TgtF_productName" Type="Str">UI Plugin Versioned</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{B0BA265F-1701-4826-B8CA-5C9F74FC0E2A}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">CIF Template UI.1.0.0.lvlibp</Property>
