@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-02-08 07:45:01" Modified_Date="2026-05-26 08:36:52" Creator="toddw" Comments="" ID="62a2018204fe3df4890e73225be5dcab">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-02-08 07:45:01" Modified_Date="2026-05-31 11:06:39" Creator="toddw" Comments="" ID="9e0f2a3fe3b849c3a709a9a15543bb0c">
   <Library_General_Settings>
     <Package_File_Name>CIF_Foundation_lib_Plugin_Wizard</Package_File_Name>
-    <Library_Version>2.2.1.5</Library_Version>
+    <Library_Version>2.2.1.6</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\..\builds\VIPM</Library_Output_Folder>
@@ -32,7 +32,7 @@
       <Copyright>Copyright © 2025 CIF Foundation. Licensed under the Apache License, Version 2.0.</Copyright>
       <Packager>DOME Automation</Packager>
       <URL/>
-      <Release_Notes>Update to Build All for CLI based automated build</Release_Notes>
+      <Release_Notes>Update to avoid registering gRPC descriptors and support UI updates for connecting to manager.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
