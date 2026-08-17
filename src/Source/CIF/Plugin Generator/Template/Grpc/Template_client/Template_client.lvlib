@@ -9,33 +9,6 @@
 
 </Property>
 	<Item Name="RPC Messages" Type="Folder">
-		<Item Name="cif_template_Numeric" Type="Folder">
-			<Item Name="cif_template_Numeric.ctl" Type="VI" URL="../RPC Messages/cif_template_Numeric.ctl"/>
-			<Item Name="FlatToRichcif_template_Numeric.vi" Type="VI" URL="../RPC Messages/FlatToRichcif_template_Numeric.vi">
-				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-			</Item>
-			<Item Name="RichToFlatcif_template_Numeric.vi" Type="VI" URL="../RPC Messages/RichToFlatcif_template_Numeric.vi">
-				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-			</Item>
-		</Item>
-		<Item Name="cif_template_Result" Type="Folder">
-			<Item Name="cif_template_Result.ctl" Type="VI" URL="../RPC Messages/cif_template_Result.ctl"/>
-			<Item Name="FlatToRichcif_template_Result.vi" Type="VI" URL="../RPC Messages/FlatToRichcif_template_Result.vi">
-				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-			</Item>
-			<Item Name="RichToFlatcif_template_Result.vi" Type="VI" URL="../RPC Messages/RichToFlatcif_template_Result.vi">
-				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-			</Item>
-		</Item>
-		<Item Name="cif_template_Statistics" Type="Folder">
-			<Item Name="cif_template_Statistics.ctl" Type="VI" URL="../RPC Messages/cif_template_Statistics.ctl"/>
-			<Item Name="FlatToRichcif_template_Statistics.vi" Type="VI" URL="../RPC Messages/FlatToRichcif_template_Statistics.vi">
-				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-			</Item>
-			<Item Name="RichToFlatcif_template_Statistics.vi" Type="VI" URL="../RPC Messages/RichToFlatcif_template_Statistics.vi">
-				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-			</Item>
-		</Item>
 		<Item Name="cif_common_TimingStats" Type="Folder">
 			<Item Name="cif_common_TimingStats.ctl" Type="VI" URL="../RPC Messages/cif_common_TimingStats.ctl"/>
 			<Item Name="FlatToRichcif_common_TimingStats.vi" Type="VI" URL="../RPC Messages/FlatToRichcif_common_TimingStats.vi">
@@ -90,18 +63,57 @@
 				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 			</Item>
 		</Item>
-		<Item Name="cif_template_Numeric_Flat" Type="Folder">
-			<Item Name="cif_template_Numeric_Flat.ctl" Type="VI" URL="../RPC Messages/cif_template_Numeric_Flat.ctl">
+		<Item Name="cif_template_SetNumericRequest" Type="Folder">
+			<Item Name="cif_template_SetNumericRequest.ctl" Type="VI" URL="../RPC Messages/cif_template_SetNumericRequest.ctl"/>
+			<Item Name="FlatToRichcif_template_SetNumericRequest.vi" Type="VI" URL="../RPC Messages/FlatToRichcif_template_SetNumericRequest.vi">
+				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+			</Item>
+			<Item Name="RichToFlatcif_template_SetNumericRequest.vi" Type="VI" URL="../RPC Messages/RichToFlatcif_template_SetNumericRequest.vi">
 				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 			</Item>
 		</Item>
-		<Item Name="cif_template_Result_Flat" Type="Folder">
-			<Item Name="cif_template_Result_Flat.ctl" Type="VI" URL="../RPC Messages/cif_template_Result_Flat.ctl">
+		<Item Name="cif_template_SetNumericResponse" Type="Folder">
+			<Item Name="cif_template_SetNumericResponse.ctl" Type="VI" URL="../RPC Messages/cif_template_SetNumericResponse.ctl"/>
+			<Item Name="FlatToRichcif_template_SetNumericResponse.vi" Type="VI" URL="../RPC Messages/FlatToRichcif_template_SetNumericResponse.vi">
+				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+			</Item>
+			<Item Name="RichToFlatcif_template_SetNumericResponse.vi" Type="VI" URL="../RPC Messages/RichToFlatcif_template_SetNumericResponse.vi">
 				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 			</Item>
 		</Item>
-		<Item Name="cif_template_Statistics_Flat" Type="Folder">
-			<Item Name="cif_template_Statistics_Flat.ctl" Type="VI" URL="../RPC Messages/cif_template_Statistics_Flat.ctl">
+		<Item Name="cif_template_GetResultRequest" Type="Folder">
+			<Item Name="cif_template_GetResultRequest.ctl" Type="VI" URL="../RPC Messages/cif_template_GetResultRequest.ctl"/>
+			<Item Name="FlatToRichcif_template_GetResultRequest.vi" Type="VI" URL="../RPC Messages/FlatToRichcif_template_GetResultRequest.vi">
+				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+			</Item>
+			<Item Name="RichToFlatcif_template_GetResultRequest.vi" Type="VI" URL="../RPC Messages/RichToFlatcif_template_GetResultRequest.vi">
+				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+			</Item>
+		</Item>
+		<Item Name="cif_template_GetResultResponse" Type="Folder">
+			<Item Name="cif_template_GetResultResponse.ctl" Type="VI" URL="../RPC Messages/cif_template_GetResultResponse.ctl"/>
+			<Item Name="FlatToRichcif_template_GetResultResponse.vi" Type="VI" URL="../RPC Messages/FlatToRichcif_template_GetResultResponse.vi">
+				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+			</Item>
+			<Item Name="RichToFlatcif_template_GetResultResponse.vi" Type="VI" URL="../RPC Messages/RichToFlatcif_template_GetResultResponse.vi">
+				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+			</Item>
+		</Item>
+		<Item Name="cif_template_GetStatisticsRequest" Type="Folder">
+			<Item Name="cif_template_GetStatisticsRequest.ctl" Type="VI" URL="../RPC Messages/cif_template_GetStatisticsRequest.ctl"/>
+			<Item Name="FlatToRichcif_template_GetStatisticsRequest.vi" Type="VI" URL="../RPC Messages/FlatToRichcif_template_GetStatisticsRequest.vi">
+				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+			</Item>
+			<Item Name="RichToFlatcif_template_GetStatisticsRequest.vi" Type="VI" URL="../RPC Messages/RichToFlatcif_template_GetStatisticsRequest.vi">
+				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+			</Item>
+		</Item>
+		<Item Name="cif_template_GetStatisticsResponse" Type="Folder">
+			<Item Name="cif_template_GetStatisticsResponse.ctl" Type="VI" URL="../RPC Messages/cif_template_GetStatisticsResponse.ctl"/>
+			<Item Name="FlatToRichcif_template_GetStatisticsResponse.vi" Type="VI" URL="../RPC Messages/FlatToRichcif_template_GetStatisticsResponse.vi">
+				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+			</Item>
+			<Item Name="RichToFlatcif_template_GetStatisticsResponse.vi" Type="VI" URL="../RPC Messages/RichToFlatcif_template_GetStatisticsResponse.vi">
 				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 			</Item>
 		</Item>
@@ -132,6 +144,36 @@
 		</Item>
 		<Item Name="cif_common_Empty_Flat" Type="Folder">
 			<Item Name="cif_common_Empty_Flat.ctl" Type="VI" URL="../RPC Messages/cif_common_Empty_Flat.ctl">
+				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+			</Item>
+		</Item>
+		<Item Name="cif_template_SetNumericRequest_Flat" Type="Folder">
+			<Item Name="cif_template_SetNumericRequest_Flat.ctl" Type="VI" URL="../RPC Messages/cif_template_SetNumericRequest_Flat.ctl">
+				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+			</Item>
+		</Item>
+		<Item Name="cif_template_SetNumericResponse_Flat" Type="Folder">
+			<Item Name="cif_template_SetNumericResponse_Flat.ctl" Type="VI" URL="../RPC Messages/cif_template_SetNumericResponse_Flat.ctl">
+				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+			</Item>
+		</Item>
+		<Item Name="cif_template_GetResultRequest_Flat" Type="Folder">
+			<Item Name="cif_template_GetResultRequest_Flat.ctl" Type="VI" URL="../RPC Messages/cif_template_GetResultRequest_Flat.ctl">
+				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+			</Item>
+		</Item>
+		<Item Name="cif_template_GetResultResponse_Flat" Type="Folder">
+			<Item Name="cif_template_GetResultResponse_Flat.ctl" Type="VI" URL="../RPC Messages/cif_template_GetResultResponse_Flat.ctl">
+				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+			</Item>
+		</Item>
+		<Item Name="cif_template_GetStatisticsRequest_Flat" Type="Folder">
+			<Item Name="cif_template_GetStatisticsRequest_Flat.ctl" Type="VI" URL="../RPC Messages/cif_template_GetStatisticsRequest_Flat.ctl">
+				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+			</Item>
+		</Item>
+		<Item Name="cif_template_GetStatisticsResponse_Flat" Type="Folder">
+			<Item Name="cif_template_GetStatisticsResponse_Flat.ctl" Type="VI" URL="../RPC Messages/cif_template_GetStatisticsResponse_Flat.ctl">
 				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 			</Item>
 		</Item>

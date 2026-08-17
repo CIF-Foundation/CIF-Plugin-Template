@@ -16,19 +16,28 @@ package cif.template;
 // This demonstrates a simple gRPC service.  This service will allow setting a numeric value in the plugin and reading that value back.  
 
 service Template {
-  rpc SetNumeric (Numeric) returns (cif.common.Status) {}
-  rpc GetResult (cif.common.Empty) returns (Result) {}
-  rpc GetStatistics (cif.common.Empty) returns (Statistics) {}
+  rpc SetNumeric (SetNumericRequest) returns (SetNumericResponse) {}
+  rpc GetResult (GetResultRequest) returns (GetResultResponse) {}
+  rpc GetStatistics (GetStatisticsRequest) returns (GetStatisticsResponse) {}
 }
 
-message Numeric {
+message SetNumericRequest {
    int32 numeric = 1;
 }
 
-message Result {
+message SetNumericResponse {
+   // Standard error response from the plugin
+   cif.common.Status status = 1;
+}
+
+message GetResultRequest {}
+
+message GetResultResponse {
    int32 result = 1;
 }
 
-message Statistics {
+message GetStatisticsRequest {}
+
+message GetStatisticsResponse {
    uint64 iterations = 1;
 }
