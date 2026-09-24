@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-02-08 07:45:01" Modified_Date="2026-08-30 18:04:30" Creator="toddw" Comments="" ID="95588f29868a201e8fd86a1dcf32469a">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-02-08 07:45:01" Modified_Date="2026-09-23 19:12:16" Creator="toddw" Comments="" ID="a4b5afbe781632743b3b0add4d917f8f">
   <Library_General_Settings>
     <Package_File_Name>CIF_Foundation_lib_Plugin_Wizard</Package_File_Name>
-    <Library_Version>3.0.4.2</Library_Version>
+    <Library_Version>3.0.5.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\..\builds\VIPM</Library_Output_Folder>
@@ -16,7 +16,10 @@
     <Target>LabVIEW</Target>
   </Library_General_Settings>
   <Advanced_Settings>
-    <Package_Dependencies/>
+    <Package_Dependencies>
+      <Additional_External_Dependencies>cif_foundation_lib_cif_core &gt;=5.0.8.2</Additional_External_Dependencies>
+      <Additional_External_Dependencies>cif_foundation_lib_cif_utilities &gt;=4.18.2.1</Additional_External_Dependencies>
+    </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
       <Post-Build_VI/>
